@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Changelist non controllate predefinite",
 			"files": [
-				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Projectile.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
