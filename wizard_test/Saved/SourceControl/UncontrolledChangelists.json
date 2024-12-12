@@ -7,7 +7,21 @@
 			"files": [
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Projectile.uasset",
-				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/DamageType_Fire.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Target.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StatusEffectComponent.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/EStatusEffects.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Effect_Burning.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Effect.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/DamageTypeInterface.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/TESTCOMMIT.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
 			]
 		}
 	]
