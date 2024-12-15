@@ -1697,3 +1697,456 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.15-16.57.23:523][842]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1019.730042
 [2024.12.15-16.57.24:525][844]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.15-16.57.24:525][844]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1020.398865, Update Interval: 343.977783
+[2024.12.15-16.58.26:873][700]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2024.12.15-16.58.31:731][980]LogContentBrowser: Attempting asset rename: OLD_Damage_Type -> OLD_Damage_Type
+[2024.12.15-16.58.37:223][188]LogMetaData: Removing '/Game/OLD_Damage_Type/BP_FireProjectile.BP_FireProjectile_C' ref from Metadata '/Game/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.37:223][188]LogMetaData: Removing '/Game/OLD_Damage_Type/BP_FireProjectile.BP_FireProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.37:223][188]LogMetaData: Removing '/Game/OLD_Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C' ref from Metadata '/Game/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.37:223][188]LogMetaData: Removing '/Game/OLD_Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C:UserConstructionScript' ref from Metadata '/Game/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.37:223][188]LogMetaData: Removing '/Game/OLD_Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C:BndEvt__BP_Projectile_Sphere_K2Node_ComponentBoundEvent_4_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.37:262][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-16.58.37:262][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OLD_Damage_Type/BP_FireProjectile] ([2] browsable assets)...
+[2024.12.15-16.58.37:262][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/BP_FireProjectile]
+[2024.12.15-16.58.37:268][188]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/BP_FireProjectile
+[2024.12.15-16.58.37:268][188]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_FireProjectile97ECDA0343BBC10EA826199669F6EC94.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/BP_FireProjectile.uasset'
+[2024.12.15-16.58.37:273][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_FireProjectile] ([5] browsable assets)...
+[2024.12.15-16.58.37:274][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_FireProjectile]
+[2024.12.15-16.58.37:274][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_FireProjectile" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_FireProjectile.uasset" SILENT=true
+[2024.12.15-16.58.37:274][188]LogSavePackage: Moving output files for package: /Game/BP_FireProjectile
+[2024.12.15-16.58.37:276][188]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_FireProjectileE4F111574BD69C677CA0B6994EFDE99D.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_FireProjectile.uasset'
+[2024.12.15-16.58.37:523][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 261.118 ms (total: 1.32 sec)
+[2024.12.15-16.58.38:214][188]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.12.15-16.58.38:214][188]LogContentValidation: Display: Starting to validate 4 assets
+[2024.12.15-16.58.38:214][188]LogContentValidation: Enabled validators:
+[2024.12.15-16.58.38:214][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-16.58.38:214][188]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-16.58.38:214][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-16.58.38:215][188]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-16.58.38:215][188]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-16.58.38:215][188]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-16.58.38:215][188]AssetCheck: /Game/OLD_Damage_Type/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.38:215][188]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.38:215][188]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.38:215][188]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.45:891][633]LogContentBrowser: Attempting asset rename: OLD_Damage_Type -> Damage_Type
+[2024.12.15-16.58.47:309][633]LogMetaData: Removing '/Game/Damage_Type/EStatusEffects.EStatusEffects' ref from Metadata '/Game/OLD_Damage_Type/EStatusEffects.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.Effect_C' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.Effect:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.Effect:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.Effect:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.Effect:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.SKEL_Effect_C:ReceiveBeginPlay' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.SKEL_Effect_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.SKEL_Effect_C:ReceiveTick' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.SKEL_Effect_C:UserConstructionScript' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:328][633]LogMetaData: Removing '/Game/Damage_Type/Effect.SKEL_Effect_C' ref from Metadata '/Game/OLD_Damage_Type/Effect.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.Effect_Burning_C' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.Effect_Burning:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.Effect_Burning:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.SKEL_Effect_Burning_C:ReceiveBeginPlay' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.SKEL_Effect_Burning_C:Burn Target' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.SKEL_Effect_Burning_C:UserConstructionScript' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.SKEL_Effect_Burning_C' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:352][633]LogMetaData: Removing '/Game/Damage_Type/Effect_Burning.Effect_Burning_C:ReceiveBeginPlay' ref from Metadata '/Game/OLD_Damage_Type/Effect_Burning.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.StatusEffectComponent_C' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.StatusEffectComponent:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.StatusEffectComponent:Trigger Effect.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.SKEL_StatusEffectComponent_C:UserConstructionScript' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.SKEL_StatusEffectComponent_C:Trigger Effect' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.SKEL_StatusEffectComponent_C' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:374][633]LogMetaData: Removing '/Game/Damage_Type/StatusEffectComponent.StatusEffectComponent_C:Trigger Effect' ref from Metadata '/Game/OLD_Damage_Type/StatusEffectComponent.PackageMetaData'
+[2024.12.15-16.58.47:393][633]LogMetaData: Removing '/Game/Damage_Type/DamageTypeInterface.DamageTypeInterface_C' ref from Metadata '/Game/OLD_Damage_Type/DamageTypeInterface.PackageMetaData'
+[2024.12.15-16.58.47:393][633]LogMetaData: Removing '/Game/Damage_Type/DamageTypeInterface.DamageTypeInterface:TriggerEffect.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/DamageTypeInterface.PackageMetaData'
+[2024.12.15-16.58.47:393][633]LogMetaData: Removing '/Game/Damage_Type/DamageTypeInterface.SKEL_DamageTypeInterface_C' ref from Metadata '/Game/OLD_Damage_Type/DamageTypeInterface.PackageMetaData'
+[2024.12.15-16.58.47:412][633]LogMetaData: Removing '/Game/Damage_Type/DamageType_Fire.DamageType_Fire_C' ref from Metadata '/Game/OLD_Damage_Type/DamageType_Fire.PackageMetaData'
+[2024.12.15-16.58.47:412][633]LogMetaData: Removing '/Game/Damage_Type/DamageType_Fire.DamageType_Fire:Set on Fire.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/DamageType_Fire.PackageMetaData'
+[2024.12.15-16.58.47:412][633]LogMetaData: Removing '/Game/Damage_Type/DamageType_Fire.DamageType_Fire:TriggerEffect.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/DamageType_Fire.PackageMetaData'
+[2024.12.15-16.58.47:412][633]LogMetaData: Removing '/Game/Damage_Type/DamageType_Fire.SKEL_DamageType_Fire_C' ref from Metadata '/Game/OLD_Damage_Type/DamageType_Fire.PackageMetaData'
+[2024.12.15-16.58.47:433][633]LogMetaData: Removing '/Game/Damage_Type/BP_FireProjectile.BP_FireProjectile_C' ref from Metadata '/Game/OLD_Damage_Type/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.47:433][633]LogMetaData: Removing '/Game/Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C' ref from Metadata '/Game/OLD_Damage_Type/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.47:433][633]LogMetaData: Removing '/Game/Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C:BndEvt__BP_Projectile_Sphere_K2Node_ComponentBoundEvent_4_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/OLD_Damage_Type/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.47:433][633]LogMetaData: Removing '/Game/Damage_Type/BP_FireProjectile.SKEL_BP_FireProjectile_C:UserConstructionScript' ref from Metadata '/Game/OLD_Damage_Type/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.47:433][633]LogMetaData: Removing '/Game/Damage_Type/BP_FireProjectile.BP_FireProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/BP_FireProjectile.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.BP_Target_C' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.BP_Target:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.SKEL_BP_Target_C:ReceiveAnyDamage' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.SKEL_BP_Target_C:UserConstructionScript' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.SKEL_BP_Target_C' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:447][633]LogMetaData: Removing '/Game/Damage_Type/BP_Target.BP_Target_C:ReceiveAnyDamage' ref from Metadata '/Game/OLD_Damage_Type/BP_Target.PackageMetaData'
+[2024.12.15-16.58.47:462][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-16.58.47:463][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_FireProjectile] ([3] browsable assets)...
+[2024.12.15-16.58.47:463][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_FireProjectile]
+[2024.12.15-16.58.47:463][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_FireProjectile" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_FireProjectile.uasset" SILENT=true
+[2024.12.15-16.58.47:464][633]LogSavePackage: Moving output files for package: /Game/BP_FireProjectile
+[2024.12.15-16.58.47:464][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_FireProjectile496F0AC54AB758B4430FB580F9F59C6E.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_FireProjectile.uasset'
+[2024.12.15-16.58.47:465][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/EStatusEffects] ([1] browsable assets)...
+[2024.12.15-16.58.47:465][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/EStatusEffects]
+[2024.12.15-16.58.47:465][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/EStatusEffects" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/EStatusEffects.uasset" SILENT=true
+[2024.12.15-16.58.47:467][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/EStatusEffects
+[2024.12.15-16.58.47:467][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/EStatusEffectsFB28B0A741825B6442B1889BF3686136.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/EStatusEffects.uasset'
+[2024.12.15-16.58.47:468][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/EStatusEffects] ([1] browsable assets)...
+[2024.12.15-16.58.47:468][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/EStatusEffects]
+[2024.12.15-16.58.47:468][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OLD_Damage_Type/EStatusEffects" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/EStatusEffects.uasset" SILENT=true
+[2024.12.15-16.58.47:469][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/EStatusEffects
+[2024.12.15-16.58.47:470][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/EStatusEffects1F266CB549A79E265DC06AADD6701B7B.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/EStatusEffects.uasset'
+[2024.12.15-16.58.47:471][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/Effect] ([2] browsable assets)...
+[2024.12.15-16.58.47:471][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/Effect]
+[2024.12.15-16.58.47:471][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/Effect" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/Effect.uasset" SILENT=true
+[2024.12.15-16.58.47:474][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/Effect
+[2024.12.15-16.58.47:474][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Effect5DC99BB3454DC654FE2263998DF1E42A.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/Effect.uasset'
+[2024.12.15-16.58.47:479][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/Effect] ([5] browsable assets)...
+[2024.12.15-16.58.47:479][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/Effect]
+[2024.12.15-16.58.47:479][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OLD_Damage_Type/Effect" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/Effect.uasset" SILENT=true
+[2024.12.15-16.58.47:480][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/Effect
+[2024.12.15-16.58.47:481][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Effect33013E2E4B8E0CE3889855BF65DE2B5B.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/Effect.uasset'
+[2024.12.15-16.58.47:485][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/Effect_Burning] ([2] browsable assets)...
+[2024.12.15-16.58.47:485][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/Effect_Burning]
+[2024.12.15-16.58.47:485][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/Effect_Burning" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/Effect_Burning.uasset" SILENT=true
+[2024.12.15-16.58.47:491][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/Effect_Burning
+[2024.12.15-16.58.47:491][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Effect_BurningAF80844141588BADC83D16913E37C37A.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/Effect_Burning.uasset'
+[2024.12.15-16.58.47:495][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/Effect_Burning] ([5] browsable assets)...
+[2024.12.15-16.58.47:495][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/Effect_Burning]
+[2024.12.15-16.58.47:495][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OLD_Damage_Type/Effect_Burning" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/Effect_Burning.uasset" SILENT=true
+[2024.12.15-16.58.47:495][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/Effect_Burning
+[2024.12.15-16.58.47:497][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Effect_Burning1514F77447D7A9D89BA9A88BD5E9677B.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/Effect_Burning.uasset'
+[2024.12.15-16.58.47:501][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/StatusEffectComponent] ([2] browsable assets)...
+[2024.12.15-16.58.47:501][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/StatusEffectComponent]
+[2024.12.15-16.58.47:509][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/StatusEffectComponent
+[2024.12.15-16.58.47:509][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/StatusEffectComponentA66389F34343CA60F09DAF893377D85A.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/StatusEffectComponent.uasset'
+[2024.12.15-16.58.47:515][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/StatusEffectComponent] ([5] browsable assets)...
+[2024.12.15-16.58.47:515][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/StatusEffectComponent]
+[2024.12.15-16.58.47:518][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/StatusEffectComponent
+[2024.12.15-16.58.47:519][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/StatusEffectComponent8C318C5E43E6C02E07BDBEA8BBBAD9D3.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/StatusEffectComponent.uasset'
+[2024.12.15-16.58.47:525][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/DamageTypeInterface] ([2] browsable assets)...
+[2024.12.15-16.58.47:525][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/DamageTypeInterface]
+[2024.12.15-16.58.47:528][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/DamageTypeInterface
+[2024.12.15-16.58.47:528][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/DamageTypeInterface0EF6BDA84BCE3631F39654A3AA899EB2.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/DamageTypeInterface.uasset'
+[2024.12.15-16.58.47:534][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/DamageTypeInterface] ([5] browsable assets)...
+[2024.12.15-16.58.47:534][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/DamageTypeInterface]
+[2024.12.15-16.58.47:535][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/DamageTypeInterface
+[2024.12.15-16.58.47:537][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/DamageTypeInterfaceC7EF6E37485317BAB0F0E68254ED7D64.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/DamageTypeInterface.uasset'
+[2024.12.15-16.58.47:543][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Damage_Type/DamageType_Fire] ([2] browsable assets)...
+[2024.12.15-16.58.47:543][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/DamageType_Fire]
+[2024.12.15-16.58.47:543][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/DamageType_Fire" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/DamageType_Fire.uasset" SILENT=true
+[2024.12.15-16.58.47:545][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/DamageType_Fire
+[2024.12.15-16.58.47:545][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/DamageType_FireCE5083734243155FAF82159B1D644613.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/DamageType_Fire.uasset'
+[2024.12.15-16.58.47:551][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/DamageType_Fire] ([5] browsable assets)...
+[2024.12.15-16.58.47:551][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/DamageType_Fire]
+[2024.12.15-16.58.47:552][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/DamageType_Fire
+[2024.12.15-16.58.47:553][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/DamageType_FireA0B6B07542473A0183A333868DF758A5.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/DamageType_Fire.uasset'
+[2024.12.15-16.58.47:557][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Damage_Type/BP_FireProjectile] ([2] browsable assets)...
+[2024.12.15-16.58.47:558][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/BP_FireProjectile]
+[2024.12.15-16.58.47:558][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/BP_FireProjectile" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_FireProjectile.uasset" SILENT=true
+[2024.12.15-16.58.47:565][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/BP_FireProjectile
+[2024.12.15-16.58.47:565][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_FireProjectile32E8AA2D411E45ABE681B8A81A14AAA2.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_FireProjectile.uasset'
+[2024.12.15-16.58.47:569][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Damage_Type/BP_Target] ([2] browsable assets)...
+[2024.12.15-16.58.47:569][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/BP_Target]
+[2024.12.15-16.58.47:569][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/BP_Target" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset" SILENT=true
+[2024.12.15-16.58.47:575][633]LogSavePackage: Moving output files for package: /Game/Damage_Type/BP_Target
+[2024.12.15-16.58.47:575][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_Target85E458944D868AD771988EB11E801FFB.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset'
+[2024.12.15-16.58.47:584][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OLD_Damage_Type/BP_Target] ([5] browsable assets)...
+[2024.12.15-16.58.47:584][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/OLD_Damage_Type/BP_Target]
+[2024.12.15-16.58.47:584][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OLD_Damage_Type/BP_Target" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/BP_Target.uasset" SILENT=true
+[2024.12.15-16.58.47:585][633]LogSavePackage: Moving output files for package: /Game/OLD_Damage_Type/BP_Target
+[2024.12.15-16.58.47:585][633]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_Target7BE3758D4304F1EE934A8D90C781ACF8.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/OLD_Damage_Type/BP_Target.uasset'
+[2024.12.15-16.58.47:873][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 409.787 ms (total: 1.73 sec)
+[2024.12.15-16.58.50:233][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.12.15-16.58.50:302][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.12.15-16.58.50:339][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.12.15-16.58.50:558][633]SourceControl: rm 'wizard_test/Content/OLD_Damage_Type/BP_FireProjectile.uasset'
+[2024.12.15-16.58.50:851][633]LogContentValidation: Display: Starting to validate 30 assets
+[2024.12.15-16.58.50:851][633]LogContentValidation: Enabled validators:
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-16.58.50:851][633]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/Damage_Type/EStatusEffects Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/EStatusEffects Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/Damage_Type/Effect Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/Damage_Type/Effect_Burning Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect_Burning Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect_Burning Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/Effect_Burning Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/Damage_Type/StatusEffectComponent Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/StatusEffectComponent Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/StatusEffectComponent Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/OLD_Damage_Type/StatusEffectComponent Convalida asset
+[2024.12.15-16.58.50:852][633]AssetCheck: /Game/Damage_Type/DamageTypeInterface Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageTypeInterface Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageTypeInterface Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageTypeInterface Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/Damage_Type/DamageType_Fire Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageType_Fire Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageType_Fire Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/DamageType_Fire Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/Damage_Type/BP_FireProjectile Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/Damage_Type/BP_Target Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/BP_Target Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/BP_Target Convalida asset
+[2024.12.15-16.58.50:853][633]AssetCheck: /Game/OLD_Damage_Type/BP_Target Convalida asset
+[2024.12.15-16.58.59:571][828]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Damage_Type/BP_Target.BP_Target
+[2024.12.15-16.58.59:571][828]LogChaosDD: Creating Chaos Debug Draw Scene for world World_3
+[2024.12.15-16.59.38:335][ 59]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2024.12.15-16.59.38:421][ 60]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2024.12.15-17.00.31:837][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.12.15-17.00.32:063][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-17.00.32:257][138]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Damage_Type/BP_Target] ([2] browsable assets)...
+[2024.12.15-17.00.32:308][138]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Damage_Type/BP_Target.BP_Target]
+[2024.12.15-17.00.32:308][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/BP_Target]
+[2024.12.15-17.00.32:308][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/BP_Target" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset" SILENT=true
+[2024.12.15-17.00.32:315][138]LogSavePackage: Moving output files for package: /Game/Damage_Type/BP_Target
+[2024.12.15-17.00.32:316][138]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_Target547810D24BC960927C07F9A00ACC6926.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset'
+[2024.12.15-17.00.32:332][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 269.041 ms (total: 2.00 sec)
+[2024.12.15-17.00.32:513][138]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-17.00.32:513][138]LogContentValidation: Enabled validators:
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-17.00.32:513][138]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-17.00.32:513][138]AssetCheck: /Game/Damage_Type/BP_Target Convalida asset
+[2024.12.15-17.00.35:674][314]LogDebuggerCommands: Repeating last play command: Viewport selezionata
+[2024.12.15-17.00.35:682][314]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.15-17.00.35:682][314]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.15-17.00.35:685][314]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.107 ms (total: 11.015 ms)
+[2024.12.15-17.00.35:686][314]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.12.15-17.00.35:867][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-17.00.36:044][314]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.15-17.00.36:044][314]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2024.12.15-17.00.36:216][314]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.15-17.00.36:216][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.15-17.00.36:229][314]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.15-17.00.36:230][314]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_ThirdPersonCharacter01C3150A42A1E12706913091B3FD1A05.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.15-17.00.36:252][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 384.448 ms (total: 2.38 sec)
+[2024.12.15-17.00.36:292][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.12.15-17.00.36:296][314]LogPlayLevel: PlayLevel: Blueprint regeneration took 611 ms (1 blueprints)
+[2024.12.15-17.00.36:325][314]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-17.00.36:329][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004052s)
+[2024.12.15-17.00.36:329][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004137s)
+[2024.12.15-17.00.36:361][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.12.15-17.00.36:362][314]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.15-17.00.36:364][314]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.15-17.00.36:364][314]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.15-17.00.36:364][314]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.15-17.00.36:364][314]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.15-17.00.36:366][314]LogWorldPartition: Display: WorldPartition initialize took 1.785 ms (total: 139.179 ms)
+[2024.12.15-17.00.36:366][314]LogPlayLevel: PIE: World Init took: (0.004808s)
+[2024.12.15-17.00.36:368][314]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-17.00.36:368][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.15-17.00.36:368][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-17.00.36:368][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-17.00.36:368][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-17.00.36:368][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-17.00.36:374][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-17.00.36:475][314]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.15-17.00.36:475][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-17.00.36:475][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-17.00.36:475][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-17.00.36:475][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.12.15-17.00.36:476][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.12.15-17.00.36:479][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.12.15-17.00.36:479][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.12.15-17.00.36:479][314]LogInit: FAudioDevice initialized with ID 5.
+[2024.12.15-17.00.36:479][314]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.12.15-17.00.36:479][314]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.12.15-17.00.36:482][314]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.15-17.00.36:484][314]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.12.15-18.00.36
+[2024.12.15-17.00.36:485][314]LogWorld: Bringing up level for play took: 0.002986
+[2024.12.15-17.00.36:488][314]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.12.15-17.00.36:495][314]PIE: Accesso al server effettuato
+[2024.12.15-17.00.36:497][314]PIE: Tempo di avvio totale di Riproduci nell'editor 0,814 secondi.
+[2024.12.15-17.00.36:508][315]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-17.00.36:508][315]LogContentValidation: Enabled validators:
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-17.00.36:508][315]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-17.00.36:508][315]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Convalida asset
+[2024.12.15-17.00.37:859][389]LogBlueprintUserMessages: [BP_FireProjectile_C_0] Colpito SM_Cube6
+[2024.12.15-17.00.40:297][548]LogBlueprintUserMessages: [BP_FireProjectile_C_1] Colpito BP_ThirdPersonCharacter_C_0
+[2024.12.15-17.00.41:629][648]LogBlueprintUserMessages: [BP_FireProjectile_C_2] Colpito BP_Target2
+[2024.12.15-17.00.41:630][648]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1111604664] 10
+[2024.12.15-17.00.43:633][788]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:43 > Danni da fuoco: 3
+[2024.12.15-17.00.44:500][848]LogBlueprintUserMessages: [BP_FireProjectile_C_3] Colpito BP_Target3
+[2024.12.15-17.00.44:501][848]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1113442665] 10
+[2024.12.15-17.00.45:638][922]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:45 > Danni da fuoco: 3
+[2024.12.15-17.00.46:504][975]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:46 > Danni da fuoco: 3
+[2024.12.15-17.00.47:603][ 42]LogBlueprintUserMessages: [BP_FireProjectile_C_4] Colpito BP_Target
+[2024.12.15-17.00.47:603][ 42]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1108217663] 10
+[2024.12.15-17.00.47:639][ 44]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:47 > Danni da fuoco: 3
+[2024.12.15-17.00.48:504][ 96]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:48 > Danni da fuoco: 3
+[2024.12.15-17.00.49:619][160]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:49 > Danni da fuoco: 3
+[2024.12.15-17.00.49:636][161]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:49 > Danni da fuoco: 3
+[2024.12.15-17.00.50:515][213]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:50 > Danni da fuoco: 3
+[2024.12.15-17.00.51:617][275]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:51 > Danni da fuoco: 3
+[2024.12.15-17.00.51:632][276]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:51 > Danni da fuoco: 3
+[2024.12.15-17.00.52:507][326]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:52 > Danni da fuoco: 3
+[2024.12.15-17.00.53:605][389]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:53 > Danni da fuoco: 3
+[2024.12.15-17.00.53:639][391]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:53 > Danni da fuoco: 3
+[2024.12.15-17.00.54:503][440]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:54 > Danni da fuoco: 3
+[2024.12.15-17.00.55:607][502]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:55 > Danni da fuoco: 3
+[2024.12.15-17.00.55:641][504]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:00:55 > Danni da fuoco: 3
+[2024.12.15-17.00.56:504][558]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:56 > Danni da fuoco: 3
+[2024.12.15-17.00.57:613][633]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:57 > Danni da fuoco: 3
+[2024.12.15-17.00.58:506][687]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:00:58 > Danni da fuoco: 3
+[2024.12.15-17.00.59:614][756]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:00:59 > Danni da fuoco: 3
+[2024.12.15-17.01.01:607][895]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:01:01 > Danni da fuoco: 3
+[2024.12.15-17.01.03:408][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-17.01.03:408][ 26]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-17.01.03:409][ 26]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-17.01.03:410][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-17.01.03:410][ 26]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.15-17.01.03:422][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-17.01.03:432][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-17.01.03:464][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-17.01.03:464][ 26]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.12.15-17.01.03:464][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.15-17.01.03:467][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.15-17.01.03:478][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.12.15-17.01.03:504][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.12.15-17.01.13:661][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.12.15-17.01.13:875][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-17.01.14:068][632]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Damage_Type/BP_Target] ([2] browsable assets)...
+[2024.12.15-17.01.14:113][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Damage_Type/BP_Target.BP_Target]
+[2024.12.15-17.01.14:113][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/BP_Target]
+[2024.12.15-17.01.14:113][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/BP_Target" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset" SILENT=true
+[2024.12.15-17.01.14:122][632]LogSavePackage: Moving output files for package: /Game/Damage_Type/BP_Target
+[2024.12.15-17.01.14:122][632]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_TargetEAE3A23B4DA2A10F1C05EB86AD284B80.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset'
+[2024.12.15-17.01.14:139][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 263.604 ms (total: 2.65 sec)
+[2024.12.15-17.01.14:322][632]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-17.01.14:322][632]LogContentValidation: Enabled validators:
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-17.01.14:322][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-17.01.14:322][632]AssetCheck: /Game/Damage_Type/BP_Target Convalida asset
+[2024.12.15-17.01.16:664][766]LogDebuggerCommands: Repeating last play command: Viewport selezionata
+[2024.12.15-17.01.16:673][766]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.15-17.01.16:673][766]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.15-17.01.16:675][766]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.219 ms (total: 13.234 ms)
+[2024.12.15-17.01.16:675][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.15-17.01.16:675][766]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-17.01.16:680][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004563s)
+[2024.12.15-17.01.16:680][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004600s)
+[2024.12.15-17.01.16:709][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.12.15-17.01.16:711][766]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.15-17.01.16:713][766]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.15-17.01.16:713][766]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.15-17.01.16:713][766]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.15-17.01.16:713][766]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.15-17.01.16:714][766]LogWorldPartition: Display: WorldPartition initialize took 1.498 ms (total: 140.678 ms)
+[2024.12.15-17.01.16:714][766]LogPlayLevel: PIE: World Init took: (0.003188s)
+[2024.12.15-17.01.16:715][766]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-17.01.16:715][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.15-17.01.16:715][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-17.01.16:715][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-17.01.16:715][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-17.01.16:715][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-17.01.16:718][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-17.01.16:815][766]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.15-17.01.16:815][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-17.01.16:815][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-17.01.16:815][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-17.01.16:817][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.12.15-17.01.16:817][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.12.15-17.01.16:819][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.12.15-17.01.16:820][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.12.15-17.01.16:820][766]LogInit: FAudioDevice initialized with ID 6.
+[2024.12.15-17.01.16:820][766]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2024.12.15-17.01.16:820][766]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.15-17.01.16:823][766]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.15-17.01.16:825][766]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.12.15-18.01.16
+[2024.12.15-17.01.16:825][766]LogWorld: Bringing up level for play took: 0.002485
+[2024.12.15-17.01.16:828][766]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.12.15-17.01.16:833][766]PIE: Accesso al server effettuato
+[2024.12.15-17.01.16:834][766]PIE: Tempo di avvio totale di Riproduci nell'editor 0,162 secondi.
+[2024.12.15-17.01.18:018][829]LogBlueprintUserMessages: [BP_FireProjectile_C_0] Colpito SM_Cube6
+[2024.12.15-17.01.20:368][970]LogBlueprintUserMessages: [BP_FireProjectile_C_1] Colpito SM_Cube3
+[2024.12.15-17.01.21:184][ 19]LogBlueprintUserMessages: [BP_FireProjectile_C_2] Colpito BP_Target2
+[2024.12.15-17.01.21:185][ 19]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1111604664] 10
+[2024.12.15-17.01.23:187][139]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:23 > Danni da fuoco: 3
+[2024.12.15-17.01.25:190][259]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:25 > Danni da fuoco: 3
+[2024.12.15-17.01.25:776][294]LogBlueprintUserMessages: [BP_FireProjectile_C_3] Colpito BP_Target3
+[2024.12.15-17.01.25:777][294]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1113442665] 10
+[2024.12.15-17.01.27:188][385]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:27 > Danni da fuoco: 3
+[2024.12.15-17.01.27:777][422]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:01:27 > Danni da fuoco: 3
+[2024.12.15-17.01.29:195][512]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:29 > Danni da fuoco: 3
+[2024.12.15-17.01.29:776][548]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:01:29 > Danni da fuoco: 3
+[2024.12.15-17.01.31:199][638]LogBlueprintUserMessages: [BP_FireProjectile_C_4] Colpito BP_Target
+[2024.12.15-17.01.31:200][638]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1108217663] 10
+[2024.12.15-17.01.31:201][638]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:31 > Danni da fuoco: 3
+[2024.12.15-17.01.31:777][673]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:01:31 > Danni da fuoco: 3
+[2024.12.15-17.01.33:201][757]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 17:01:33 > Danni da fuoco: 3
+[2024.12.15-17.01.33:201][757]LogBlueprintUserMessages: [Effect_Burning_C_2] LOG 17:01:33 > Danni da fuoco: 3
+[2024.12.15-17.01.33:786][791]LogBlueprintUserMessages: [Effect_Burning_C_1] LOG 17:01:33 > Danni da fuoco: 3
+[2024.12.15-17.01.34:340][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-17.01.34:340][821]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-17.01.34:341][821]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-17.01.34:342][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-17.01.34:342][821]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.15-17.01.34:354][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-17.01.34:363][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-17.01.34:396][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.15-17.01.34:396][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.15-17.01.34:396][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.15-17.01.34:398][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.15-17.01.34:407][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-17.01.34:413][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.12.15-17.01.34:450][822]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.12.15-17.02.52:411][980]LogEditorTransaction: Undo Sposta nodi
+[2024.12.15-17.03.18:175][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1374.384521
+[2024.12.15-17.03.18:410][180]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.15-17.03.18:410][180]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1374.608521, Update Interval: 343.402802
+[2024.12.15-17.03.30:704][233]LogEditorTransaction: Undo Raddrizza connessioni
+[2024.12.15-17.03.37:017][691]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-17.03.37:217][691]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Damage_Type/BP_Target] ([2] browsable assets)...
+[2024.12.15-17.03.37:266][691]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Damage_Type/BP_Target.BP_Target]
+[2024.12.15-17.03.37:266][691]OBJ SavePackage: Finished generating thumbnails for package [/Game/Damage_Type/BP_Target]
+[2024.12.15-17.03.37:266][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Damage_Type/BP_Target" FILE="../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset" SILENT=true
+[2024.12.15-17.03.37:273][691]LogSavePackage: Moving output files for package: /Game/Damage_Type/BP_Target
+[2024.12.15-17.03.37:274][691]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/BP_TargetC78F2A6A42DFDCE97449EEA4100E851E.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Damage_Type/BP_Target.uasset'
+[2024.12.15-17.03.37:292][691]LogFileHelpers: InternalPromptForCheckoutAndSave took 275.217 ms (total: 2.92 sec)
+[2024.12.15-17.03.37:501][691]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-17.03.37:501][691]LogContentValidation: Enabled validators:
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-17.03.37:501][691]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-17.03.37:501][691]AssetCheck: /Game/Damage_Type/BP_Target Convalida asset
+[2024.12.15-17.03.38:883][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.12.15-17.04.10:934][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.12.15-17.04.10:945][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8_Auto2
+[2024.12.15-17.04.10:946][555]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/XJHCJPUS43YUG334WX9TN8_Auto2E979BDD5475220FD24DC75B36A0DACCF.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8_Auto2.uasset'
+[2024.12.15-17.04.10:950][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6_Auto2
+[2024.12.15-17.04.10:950][555]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/0V8BXJ05XEX7WOPGPXG2E6_Auto2B606C3E24C72B0889E3D3FA99B300320.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6_Auto2.uasset'
+[2024.12.15-17.04.10:954][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK_Auto2
+[2024.12.15-17.04.10:954][555]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/4L8L6E3PA87Q5HPS40EINK_Auto2727421F345B5F0915D88A89F94B6C55A.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK_Auto2.uasset'
+[2024.12.15-17.04.10:956][555]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.055
+[2024.12.15-17.04.10:956][555]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.055
