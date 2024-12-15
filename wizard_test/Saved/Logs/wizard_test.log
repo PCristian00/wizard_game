@@ -4192,3 +4192,381 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.15-18.49.24:835][578]LogHttp: Warning: 0000046AC70DEE00: request failed, libcurl error: 6 (Couldn't resolve host name)
 [2024.12.15-18.49.24:835][578]LogHttp: Warning: 0000046AC70DEE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2024.12.15-18.49.24:835][578]LogHttp: Warning: 0000046AC70DEE00: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.49.35:262][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.12.15-18.49.37:449][694]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.49.38:085][694]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube' is outside repository at 'C:/Users/crist/Documents/GitHub/wizard_game'
+[2024.12.15-18.49.38:307][694]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.49.38:534][694]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/UU/7EBXKWKLA452BD0SFW93US
+[2024.12.15-18.49.38:535][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/7EBXKWKLA452BD0SFW93USAB9A728845E2387E34938EB8CDA8E4FF.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/UU/7EBXKWKLA452BD0SFW93US.uasset'
+[2024.12.15-18.49.38:539][694]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6
+[2024.12.15-18.49.38:540][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/0V8BXJ05XEX7WOPGPXG2E67C17FF1E43C7F2803D9B3788E9CA6F79.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6.uasset'
+[2024.12.15-18.49.38:543][694]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8
+[2024.12.15-18.49.38:544][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/XJHCJPUS43YUG334WX9TN834315A1049CC5A8BF3EE7DAF0C7263D5.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8.uasset'
+[2024.12.15-18.49.38:548][694]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK
+[2024.12.15-18.49.38:549][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/4L8L6E3PA87Q5HPS40EINKE131A4B249262D046225C58FEF727E4A.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK.uasset'
+[2024.12.15-18.49.38:550][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/BasicShapes/Cube_Cube/GC_BP_Target2] ([1] browsable assets)...
+[2024.12.15-18.49.38:550][694]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/Cube_Cube/GC_BP_Target2]
+[2024.12.15-18.49.38:550][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cube_Cube/GC_BP_Target2" FILE="../../../Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset" SILENT=true
+[2024.12.15-18.49.38:552][694]LogSavePackage: Moving output files for package: /Engine/BasicShapes/Cube_Cube/GC_BP_Target2
+[2024.12.15-18.49.38:552][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/GC_BP_Target298BCDAAE480773CAD1F10F88CD6BB649.tmp' to '../../../Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset'
+[2024.12.15-18.49.38:555][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Cube_SM_Cube/GC_SM_Cube4] ([1] browsable assets)...
+[2024.12.15-18.49.38:555][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Cube_SM_Cube/GC_SM_Cube4]
+[2024.12.15-18.49.38:557][694]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/SM_Cube_SM_Cube/GC_SM_Cube4
+[2024.12.15-18.49.38:557][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/GC_SM_Cube40190C10C46B8248140F992B881104BBF.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/LevelPrototyping/Meshes/SM_Cube_SM_Cube/GC_SM_Cube4.uasset'
+[2024.12.15-18.49.38:560][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Materials/M_PrototypeGrid] ([1] browsable assets)...
+[2024.12.15-18.49.38:560][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Materials/M_PrototypeGrid]
+[2024.12.15-18.49.38:568][694]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/M_PrototypeGrid
+[2024.12.15-18.49.38:569][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/M_PrototypeGrid98881C5C4173A314B4381CA688CC2A63.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset'
+[2024.12.15-18.49.38:570][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark] ([1] browsable assets)...
+[2024.12.15-18.49.38:571][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark]
+[2024.12.15-18.49.38:573][694]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark
+[2024.12.15-18.49.38:574][694]LogSavePackage: Moving '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Saved/MI_PrototypeGrid_TopDark6ADECA544DC403030EA90284E0F7E79D.tmp' to '../../../../../../Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset'
+[2024.12.15-18.49.38:928][694]SourceControl: Error: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset' is outside repository at 'C:/Users/crist/Documents/GitHub/wizard_game'
+[2024.12.15-18.49.38:928][694]SourceControl: Error: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset' is outside repository at 'C:/Users/crist/Documents/GitHub/wizard_game'
+[2024.12.15-18.49.38:940][694]LogFileHelpers: InternalPromptForCheckoutAndSave took 633.460 ms (total: 6.63 sec)
+[2024.12.15-18.49.39:165][694]LogContentValidation: Display: Starting to validate 11 assets
+[2024.12.15-18.49.39:165][694]LogContentValidation: Enabled validators:
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-18.49.39:165][694]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-18.49.39:165][694]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Convalida asset
+[2024.12.15-18.49.39:165][694]AssetCheck: /Engine/BasicShapes/Cube_Cube/GC_BP_Target2 Convalida asset
+[2024.12.15-18.49.39:166][694]AssetCheck: /Game/LevelPrototyping/Meshes/SM_Cube_SM_Cube/GC_SM_Cube4 Convalida asset
+[2024.12.15-18.49.39:166][694]AssetCheck: /Game/LevelPrototyping/Materials/M_PrototypeGrid Convalida asset
+[2024.12.15-18.49.39:166][694]AssetCheck: /Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark Convalida asset
+[2024.12.15-18.49.39:853][697]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/Cube_Cube/GC_BP_Target2.uasset' is outside repository at 'C:/Users/crist/Documents/GitHub/wizard_game'
+[2024.12.15-18.49.47:945][817]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.49.47:945][817]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.49.47:945][817]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.49.47:945][817]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.49.47:945][818]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.48:955][876]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.48:989][878]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.49.48:989][878]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.49.48:990][878]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.49.48:990][878]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 3 (Closing connection)
+[2024.12.15-18.49.48:990][879]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.49:993][936]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.50:026][938]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.49.50:026][938]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.49.50:026][938]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.49.50:026][938]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 5 (Closing connection)
+[2024.12.15-18.49.50:026][939]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.51:027][998]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.51:060][  0]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.49.51:060][  0]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.49.51:060][  0]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.49.51:060][  0]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 7 (Closing connection)
+[2024.12.15-18.49.51:060][  1]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.52:065][ 60]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogHttp: 0000046AF7817E00: libcurl info message cache 9 (Closing connection)
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.49.52:097][ 62]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2024.12.15-18.49.52:130][ 64]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.12.15-18.49.52:985][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7769.273438
+[2024.12.15-18.50.00:966][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.12.15-18.50.19:620][555]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.15-18.50.19:903][555]LogUObjectGlobals: Force Deleting 19 Package(s):
+	Asset Name: /Game/OLD_Damage_Type/BP_Target.BP_Target
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/BP_Target.Default__BP_Target_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/BP_Target.BP_Target_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageType_Fire.DamageType_Fire
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageType_Fire.Default__DamageType_Fire_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageType_Fire.DamageType_Fire_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageTypeInterface.DamageTypeInterface
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageTypeInterface.Default__DamageTypeInterface_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/DamageTypeInterface.DamageTypeInterface_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/OLD_Damage_Type/StatusEffectComponent.StatusEffectComponent
+	Asset Type: ObjectRedirector
+[2024.12.15-18.50.25:425][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.12.15-18.50.25:482][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.12.15-18.50.25:514][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.12.15-18.50.25:805][555]SourceControl: Error: Updated 0 paths from the index
+[2024.12.15-18.50.26:106][555]SourceControl: rm 'wizard_test/Content/OLD_Damage_Type/EStatusEffects.uasset'
+[2024.12.15-18.50.26:291][556]LogHttp: Warning: 0000046AF6884600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.26:291][556]LogHttp: Warning: 0000046AF6884600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.12.15-18.50.26:291][556]LogHttp: Warning: 0000046AF6884600: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A3000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BFBCAFFBE-4E26-1C6D-7D2C-C880175D8195%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A3000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A3000: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A3000: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.26:345][557]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 0 (Found bundle for host: 0x46acb880990 [serially])
+[2024.12.15-18.50.26:345][558]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.26:345][558]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 2 (Closing connection)
+[2024.12.15-18.50.26:345][558]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3
+[2024.12.15-18.50.26:365][558]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BFBCAFFBE-4E26-1C6D-7D2C-C880175D8195%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.12.15-18.50.27:345][601]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3
+[2024.12.15-18.50.27:370][602]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.27:370][602]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.27:370][603]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.27:370][603]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 4 (Closing connection)
+[2024.12.15-18.50.27:370][603]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3
+[2024.12.15-18.50.28:372][662]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3
+[2024.12.15-18.50.28:406][664]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.28:406][664]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.28:406][664]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.28:406][665]LogEOSSDK: Warning: LogHttp: 0000046AF70A4200: libcurl info message cache 6 (Closing connection)
+[2024.12.15-18.50.28:406][665]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=8C72CA02415A967B87918BA17F9E9EC3
+[2024.12.15-18.50.28:406][665]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2024.12.15-18.50.29:166][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.12.15-18.50.35:977][706]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.50.36:253][706]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.50.36:545][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.15-18.50.36:561][706]LogFileHelpers: InternalPromptForCheckoutAndSave took 307.463 ms (total: 6.94 sec)
+[2024.12.15-18.50.36:654][708]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.36:655][708]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.36:655][708]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.36:655][708]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.50.36:655][708]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.37:663][752]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.37:696][754]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.37:696][754]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.37:696][754]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.37:696][754]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 3 (Closing connection)
+[2024.12.15-18.50.37:696][754]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.38:710][814]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.38:725][815]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.38:725][815]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.38:725][816]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.38:725][816]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 5 (Closing connection)
+[2024.12.15-18.50.38:725][816]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.39:730][874]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.39:760][876]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.39:760][876]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.39:760][876]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.39:760][876]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 7 (Closing connection)
+[2024.12.15-18.50.39:760][877]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.40:176][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.12.15-18.50.41:555][899]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.50.41:815][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.50.42:123][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.12.15-18.50.42:139][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 323.809 ms (total: 7.27 sec)
+[2024.12.15-18.50.42:158][899]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogHttp: 0000046AE1647E00: libcurl info message cache 9 (Closing connection)
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.50.42:229][901]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2024.12.15-18.50.42:275][903]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.12.15-18.50.42:275][903]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 50.364697 seconds
+[2024.12.15-18.50.45:105][ 61]LogDebuggerCommands: Repeating last play command: Viewport selezionata
+[2024.12.15-18.50.45:113][ 61]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.15-18.50.45:113][ 61]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.15-18.50.45:114][ 61]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.841 ms (total: 37.572 ms)
+[2024.12.15-18.50.45:114][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.15-18.50.45:114][ 61]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-18.50.45:118][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003615s)
+[2024.12.15-18.50.45:118][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003653s)
+[2024.12.15-18.50.45:150][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.12.15-18.50.45:152][ 61]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.15-18.50.45:153][ 61]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.15-18.50.45:153][ 61]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.15-18.50.45:153][ 61]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.15-18.50.45:153][ 61]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.15-18.50.45:155][ 61]LogWorldPartition: Display: WorldPartition initialize took 1.456 ms (total: 155.849 ms)
+[2024.12.15-18.50.45:155][ 61]LogPlayLevel: PIE: World Init took: (0.003268s)
+[2024.12.15-18.50.45:156][ 61]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-18.50.45:156][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.15-18.50.45:156][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-18.50.45:156][ 61]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-18.50.45:156][ 61]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-18.50.45:156][ 61]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-18.50.45:158][ 61]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-18.50.45:255][ 61]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.15-18.50.45:255][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-18.50.45:255][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-18.50.45:255][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-18.50.45:256][ 61]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.12.15-18.50.45:256][ 61]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.12.15-18.50.45:259][ 61]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.12.15-18.50.45:259][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.12.15-18.50.45:259][ 61]LogInit: FAudioDevice initialized with ID 15.
+[2024.12.15-18.50.45:259][ 61]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2024.12.15-18.50.45:261][ 61]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.15-18.50.45:263][ 61]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.15-18.50.45:265][ 61]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.12.15-19.50.45
+[2024.12.15-18.50.45:266][ 61]LogWorld: Bringing up level for play took: 0.002630
+[2024.12.15-18.50.45:269][ 61]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.12.15-18.50.45:276][ 61]PIE: Accesso al server effettuato
+[2024.12.15-18.50.45:277][ 61]PIE: Tempo di avvio totale di Riproduci nell'editor 0,164 secondi.
+[2024.12.15-18.50.46:387][121]LogBlueprintUserMessages: [BP_FireProjectile_C_0] Colpito SM_Cube6
+[2024.12.15-18.50.48:671][258]LogBlueprintUserMessages: [BP_FireProjectile_C_1] Colpito BP_Target2
+[2024.12.15-18.50.48:673][258]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1111604664] Danno base: 10
+[2024.12.15-18.50.50:673][378]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:50:50 > Danni da fuoco: 3
+[2024.12.15-18.50.51:322][417]LogBlueprintUserMessages: [BP_FireProjectile_C_2] Colpito BP_Bear_Bk
+[2024.12.15-18.50.52:346][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-18.50.52:346][476]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-18.50.52:346][476]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-18.50.52:347][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-18.50.52:347][476]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.15-18.50.52:357][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-18.50.52:367][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-18.50.52:394][476]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.15-18.50.52:394][476]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.15-18.50.52:395][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.15-18.50.52:397][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.15-18.50.52:404][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-18.50.52:408][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.12.15-18.50.52:501][477]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.12.15-18.50.54:142][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.12.15-18.50.55:426][568]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.50.55:655][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.50.55:942][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.15-18.50.55:955][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 300.165 ms (total: 7.57 sec)
+[2024.12.15-18.51.23:812][  9]LogEOSSDK: Warning: LogHttp: 0000046AE0ABA800: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BFBCAFFBE-4E26-1C6D-7D2C-C880175D8195%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.23:812][  9]LogEOSSDK: Warning: LogHttp: 0000046AE0ABA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.23:812][ 10]LogEOSSDK: Warning: LogHttp: 0000046AE0ABA800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.23:812][ 10]LogEOSSDK: Warning: LogHttp: 0000046AE0ABA800: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.51.23:828][ 10]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BFBCAFFBE-4E26-1C6D-7D2C-C880175D8195%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.12.15-18.51.24:270][ 36]LogHttp: Warning: 0000046AE5A06200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.24:270][ 36]LogHttp: Warning: 0000046AE5A06200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.12.15-18.51.24:270][ 36]LogHttp: Warning: 0000046AE5A06200: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.51.27:858][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.12.15-18.51.36:827][246]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.51.37:080][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.51.37:406][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.12.15-18.51.37:422][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 342.124 ms (total: 7.91 sec)
+[2024.12.15-18.51.37:434][246]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7873.735352
+[2024.12.15-18.51.39:087][325]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.39:087][325]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.39:087][325]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.39:087][326]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 1 (Closing connection)
+[2024.12.15-18.51.39:087][326]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.40:099][384]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.40:117][384]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.40:117][384]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.40:117][384]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.40:117][384]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 3 (Closing connection)
+[2024.12.15-18.51.40:117][385]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.41:131][443]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.41:163][445]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.41:164][445]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.41:164][446]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.41:164][446]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 5 (Closing connection)
+[2024.12.15-18.51.41:164][446]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.42:178][503]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.42:194][504]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.42:195][504]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.42:195][504]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.42:195][504]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 7 (Closing connection)
+[2024.12.15-18.51.42:195][504]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.43:202][564]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.43:253][568]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.15-18.51.43:254][568]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.12.15-18.51.43:254][568]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2024.12.15-18.51.43:254][568]LogEOSSDK: Warning: LogHttp: 0000046AC938C600: libcurl info message cache 9 (Closing connection)
+[2024.12.15-18.51.43:254][568]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2024.12.15-18.51.43:254][568]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2024.12.15-18.51.43:287][569]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.12.15-18.51.43:287][569]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 54.921413 seconds
+[2024.12.15-18.52.09:010][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.15-18.52.10:668][771]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.52.10:905][771]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.52.11:186][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.15-18.52.11:199][771]LogFileHelpers: InternalPromptForCheckoutAndSave took 294.367 ms (total: 8.20 sec)
+[2024.12.15-18.52.13:031][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.12.15-18.52.22:706][870]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.52.24:485][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.12.15-18.52.33:380][956]LogSlate: Window 'Salva contenuto' being destroyed
+[2024.12.15-18.52.33:651][956]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-18.52.33:951][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.12.15-18.52.33:965][956]LogFileHelpers: InternalPromptForCheckoutAndSave took 314.327 ms (total: 8.52 sec)
+[2024.12.15-18.52.38:203][191]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7934.513184
+[2024.12.15-18.52.38:642][217]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.15-18.52.38:642][217]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7934.934570, Update Interval: 301.182892
+[2024.12.15-18.52.38:664][219]LogDebuggerCommands: Repeating last play command: Viewport selezionata
+[2024.12.15-18.52.38:673][219]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.15-18.52.38:673][219]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.15-18.52.38:676][219]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.460 ms (total: 40.033 ms)
+[2024.12.15-18.52.38:676][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.15-18.52.38:712][219]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-18.52.38:717][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004445s)
+[2024.12.15-18.52.38:717][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004511s)
+[2024.12.15-18.52.38:754][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.12.15-18.52.38:756][219]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.15-18.52.38:758][219]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.15-18.52.38:758][219]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.15-18.52.38:758][219]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.15-18.52.38:758][219]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.15-18.52.38:760][219]LogWorldPartition: Display: WorldPartition initialize took 1.738 ms (total: 157.587 ms)
+[2024.12.15-18.52.38:760][219]LogPlayLevel: PIE: World Init took: (0.003724s)
+[2024.12.15-18.52.38:760][219]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.12.15-18.52.38:760][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-18.52.38:760][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-18.52.38:760][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-18.52.38:762][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-18.52.38:762][219]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.15-18.52.38:762][219]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-18.52.38:762][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.15-18.52.38:762][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-18.52.38:762][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-18.52.38:762][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-18.52.38:762][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-18.52.38:764][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-18.52.38:863][219]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.15-18.52.38:863][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-18.52.38:863][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-18.52.38:863][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-18.52.38:863][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.12.15-18.52.38:863][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.12.15-18.52.38:867][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.12.15-18.52.38:867][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.12.15-18.52.38:867][219]LogInit: FAudioDevice initialized with ID 16.
+[2024.12.15-18.52.38:867][219]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2024.12.15-18.52.38:867][219]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.12.15-18.52.38:871][219]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.15-18.52.38:873][219]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.12.15-19.52.38
+[2024.12.15-18.52.38:874][219]LogWorld: Bringing up level for play took: 0.002495
+[2024.12.15-18.52.38:876][219]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.12.15-18.52.38:883][219]PIE: Accesso al server effettuato
+[2024.12.15-18.52.38:884][219]PIE: Tempo di avvio totale di Riproduci nell'editor 0,211 secondi.
+[2024.12.15-18.52.40:037][282]LogBlueprintUserMessages: [BP_FireProjectile_C_0] Colpito SM_Cube6
+[2024.12.15-18.52.41:554][373]LogBlueprintUserMessages: [BP_FireProjectile_C_1] Colpito SM_Cube6
+[2024.12.15-18.52.43:721][503]LogBlueprintUserMessages: [BP_FireProjectile_C_2] Colpito SM_Cube8
+[2024.12.15-18.52.46:025][640]LogBlueprintUserMessages: [BP_FireProjectile_C_3] Colpito BP_Target
+[2024.12.15-18.52.46:026][640]LogBlueprintUserMessages: [BP_Target_C_UAID_40C2BAF51B883F3702_1108217663] Danno base: 10
+[2024.12.15-18.52.48:029][760]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:52:48 > Danni da fuoco: 3
+[2024.12.15-18.52.50:029][880]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:52:50 > Danni da fuoco: 3
+[2024.12.15-18.52.52:030][  0]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:52:52 > Danni da fuoco: 3
+[2024.12.15-18.52.54:030][120]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:52:54 > Danni da fuoco: 3
+[2024.12.15-18.52.56:030][240]LogBlueprintUserMessages: [Effect_Burning_C_0] LOG 18:52:56 > Danni da fuoco: 3
+[2024.12.15-18.52.57:384][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-18.52.57:384][319]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.15-18.52.57:384][319]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-18.52.57:385][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-18.52.57:385][319]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.15-18.52.57:392][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-18.52.57:400][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-18.52.57:430][319]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.15-18.52.57:430][319]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.12.15-18.52.57:430][319]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.12.15-18.52.57:433][319]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.12.15-18.52.57:440][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-18.52.57:444][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.12.15-18.52.57:530][320]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.12.15-18.53.35:648][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.15-18.53.37:821][783]LogSlate: Window 'Salva contenuto' being destroyed
