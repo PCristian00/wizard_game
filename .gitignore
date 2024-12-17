@@ -72,7 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-wizard_test/Saved/Logs/wizard_test.log
-/wizard_test/Saved/Logs
-/wizard_test/Saved/Logs
 /wizard_test/Saved/Logs
