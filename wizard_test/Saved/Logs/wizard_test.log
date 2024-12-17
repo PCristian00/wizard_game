@@ -23633,3 +23633,96 @@ Sampler Limit: 32
 [2024.12.17-17.10.45:834][528]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
 [2024.12.17-17.10.45:834][528]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2024.12.17-17.10.46:169][529]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 7.098605 seconds
+[2024.12.17-17.10.53:174][549]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7195.847656
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 1 (  Trying 3.221.250.197:443...)
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 2 (Connected to api.epicgames.dev (3.221.250.197) port 443)
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.10.53:841][551]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: 000004366E56D800: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.12.17-17.10.53:841][552]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.12.17-17.10.54:173][552]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.024995 seconds
+[2024.12.17-17.10.57:841][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B5DEEAB92-4447-1639-023A-138F48E4B3B5%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.10.57:841][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.10.57:841][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.12.17-17.10.57:841][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 1 (  Trying 44.223.167.45:443...)
+[2024.12.17-17.10.57:841][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 2 (Connected to api.epicgames.dev (44.223.167.45) port 443)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.10.57:842][564]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.10.58:169][565]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B5DEEAB92-4447-1639-023A-138F48E4B3B5%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.12.17-17.11.05:171][586]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7207.844727
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 1 (  Trying 44.223.167.45:443...)
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 2 (Connected to api.epicgames.dev (44.223.167.45) port 443)
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.11.05:839][587]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: 000004366E56C000: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.12.17-17.11.05:840][588]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.12.17-17.11.06:170][589]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.583361 seconds
+[2024.12.17-17.11.09:505][599]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7212.178711
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 1 (  Trying 44.223.167.45:443...)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 2 (Connected to api.epicgames.dev (44.223.167.45) port 443)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: 000004366E564200: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.12.17-17.11.10:172][601]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.12.17-17.11.10:508][601]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 4.201544 seconds
+[2024.12.17-17.11.14:507][614]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7217.180664
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 1 (  Trying 44.223.167.45:443...)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 2 (Connected to api.epicgames.dev (44.223.167.45) port 443)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: 000004366E56B400: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.12.17-17.11.15:173][616]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.12.17-17.11.15:507][617]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 14.096622 seconds
+[2024.12.17-17.11.29:511][658]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7232.184570
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: request failed, libcurl error: 35 (SSL connect error)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 1 (  Trying 44.223.167.45:443...)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 2 (Connected to api.epicgames.dev (44.223.167.45) port 443)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 7 (Closing connection)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: 000004366E56F600: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.12.17-17.11.30:184][660]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.12.17-17.11.30:511][662]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.020417 seconds
