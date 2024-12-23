@@ -6,6 +6,8 @@
 			"description": "Changelist non controllate predefinite",
 			"files": [
 				"C:/Users/lenovo/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/lenovo/Documents/GitHub/wizard_game/wizard_test/Content/Dragos/Blueprint/BP_ProvaDamage.uasset",
+				"C:/Users/lenovo/Documents/GitHub/wizard_game/wizard_test/Content/Dragos/UI/BP_HealthBar.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Projectile.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
