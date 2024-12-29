@@ -1,0 +1,37 @@
+I risultati finora raggiunti:
+
+I - Il codice in C++ e gli UActors creati permettono di generare un piano di gioco quadrato 5x5 dove la stanza centrale è presente in ogni partita (il giocatore inizialmente spawna in questa stanza).
+
+
+II - Dalla stanza centrale si sviluppano massimo quattro percorsi di fatti di stanze. 
+      I percorsi sono:
+          "continui"  -->  il giocatore può raggiungere tutte le stanze di un percorso (cioè non esistono stanze inaccessibili perché, ad esempio, spawnate in modo da essere isolate)
+          "indipendenti"  -->  se il giocatore si trova nel percorso 'A' e vuole andare nel percorso 'B' deve per forza tornare nella stanza centrale che funge da crocevia per i vari percorsi
+          "senza loops di stanze"  -->  le stanze non formano loops cioè non ci saranno mai quattro stanze dello stesso percorso unite a formare un quadrato 2x2 (necessario per il posizionamento delle porte)
+
+
+III - Ogni stanza contiene quattro mura e il giusto numero di porte posizionate sui muri giusti (il numero e la posizione delle porte dipende dal numero e dalla posizione delle stanze vicine)
+
+
+IV - Ogni stanza contiene un pavimento fatto di "tiles".
+      Per semplicità le tiles sono attualmente di due tipi: tiles senza effetto (di colore verde) e tiles con bonus/malus (di colore rosso).
+      Per adesso il pavimento di ogni stanza è formato soltanto da tiles bonus/malus ad eccezione di alcune tiles senza effetto che creano un percorso che connette le porte delle varie stanze.
+      Questo percorso minimo deve essere presente: se ad esempio uno dei malus è l'effetto "burrone" (morte istantanea) superabile solo con l'abilità "salto" ma il giocatore ancora non possiede tale abilità,
+      spawnando le stanze in maniera totalmente randomica, può accadere che il giocatore rimanga accerchiato da tiles "burrone" rendendogli impossibile raggiungere le porte verso le altre nuove stanze.
+
+
+
+
+
+I risultati successivi che vorrei raggiungere:
+
+I - Mantenere il percorso "sicuro" minimo di tiles senza effetto randomizzando (magari non proprio totalmente) le rimanenti tiles che compongono il resto del pavimento.
+
+
+II - Fare si che la disposizione randomizzata delle tiles (con e senza effetto) sia funzionale al gameplay: ovvero evitare che la disposizione randomica di tiles vada a isolare dei nemici, renda impossibile il
+      raccogliere certi oggetti, etc
+
+III - Creare algoritmi (che tengano conto di come sono posizionate le varie tiles) per spawnare in maniera funzionale i vari tipi di nemici.
+
+
+IV - Creare algoritmi (che tengano conto delle tiles e dei nemici) per spawnare oggetti con cui il giocatore può o meno interagire.
