@@ -35,3 +35,7 @@ III - Creare algoritmi (che tengano conto di come sono posizionate le varie tile
 
 
 IV - Creare algoritmi (che tengano conto delle tiles e dei nemici) per spawnare oggetti con cui il giocatore può o meno interagire.
+
+
+V - Generalizzare gli algoritmi di spawn di pavimento, nemici ed oggetti ad un pavimento n x n (attualmente tutti gli algoritmi sono pensati per
+      un pavimento 5 x 5)
