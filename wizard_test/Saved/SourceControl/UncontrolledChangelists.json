@@ -5,21 +5,24 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Changelist non controllate predefinite",
 			"files": [
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Particles/P_Fire.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BB_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/AI/BP_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/BO/8LO10HSS0IMZBVY1UQ0LU9.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ZQ/0SW9GE68VYCTOJOEK0QIOL.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KC/NZ1ZMLWNC8W7K0707U7LDS.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/AI/BT_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/AI/Task/BTT_task_moveToRandomLocation.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/AI/BB_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/AI/AI_enemy.uasset",
-				"/Users/lindamaltoni/Documents/GitHub/wizard_game/wizard_test/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Projectile.uasset",
-				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/DamageType_Fire.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/BP_Target.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/A3/0V8BXJ05XEX7WOPGPXG2E6.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/RC/XJHCJPUS43YUG334WX9TN8.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/UR/4L8L6E3PA87Q5HPS40EINK.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/StatusEffectComponent.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/EStatusEffects.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Effect_Burning.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/Effect.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/DamageTypeInterface.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/TESTCOMMIT.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/UU/7EBXKWKLA452BD0SFW93US.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset",
+				"C:/Users/crist/Documents/GitHub/wizard_game/wizard_test/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
 			]
 		}
 	]
