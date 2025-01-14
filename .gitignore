@@ -72,14 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-/wizard_test/Saved/Logs
 /wizard_test/Saved
-/wizard_test/Saved/Autosaves
-/wizard_test/Saved/Config
-/wizard_test/Saved
-/wizard_test/Saved/Autosaves
-wizard_test/Saved/Autosaves/PackageRestoreData.json
-wizard_test/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-wizard_test/Saved/Autosaves/PackageRestoreData.json
-wizard_test/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-wizard_test/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+/wizard_test/Intermediate
