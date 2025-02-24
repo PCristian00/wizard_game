@@ -1,0 +1,30 @@
+Spiegazione dei risultati raggiunti presentati nei video:
+- "Dimostrazione_mappa"
+- "Dimostrazione_UI_livello1"
+- "Dimostrazione_UI_livello2"
+
+
+Dimostrazione_mappa:
+
+I - E' stata aggiunta una navmesh che copre il pavimento di tutte le stanze della mappa (evitando però le tiles con effetto che sono quindi percorribili solo dal giocatore). 
+    La forma della navmesh rispetta i pattern geometrici di ogni stanza. 
+II - Per adesso sono state aggiunte due tipi di tiles con effetto: "fuoco" (che faranno danno al giocatore) e 
+     "burrone" (posizionate più in basso rispetto al pavimento) --> sopra queste tiles sono presenti dei triggers che una volta intersecati dal giocatore daranno l'effetto desiderato.
+III - Sono state aggiunte delle textures (provvisorie) giusto per prendere dimestichezza con materiali e textures in Unreal Engine.
+IV - Sono stati creati altri due livelli (il 3° livello è un'unica stanza contenente il boss) e ad essi si accede attraverso un portale che viene spawnato in una certa stanza quando
+     tutti i nemici al suo interno sono stati eliminati (nel video il portale non si vede ma sostanzialmente è un cubo giallo con un trigger per rilevare la collisione con il player)
+V - Sono stati creati (solo a scopo di debugging) dei nemici con intelligenza artificiale: ciò è stato fatto per verificare il corretto funzionamento della navmesh per il movimento.
+
+Dimostrazione_UI_livello1:
+
+I - Per rispettare il requisito minimo di almeno una UI, ho aggiunto un menù principale ad inizio gioco, una schermata di gameover (in caso di morte del player), un menù di pausa e
+    una schermata di vittoria (per quando il boss viene sconfitto).
+
+II - Siccome il gioco sarà giocato con il gamepad, ho fatto in modo che i bottoni possano essere selezionati e premuti con il gamepad. Si usa il gamepad anche per mettere in pausa il gioco.
+     Per il momento, unicamente al fine di debuggare, per far morire il giocatore (e quindi far apparire la schermata di gameover) basta premere il tasto X/quadrato del gamepad.
+
+Dimostrazione_UI_livello3:
+
+I - Oltre ai nemici con intelligenza artificiale di tipo "Ranged" e "Melee" presenti nei primi due livelli, ho anche creato un boss. Il suo scopo è unicamente quello di distruggersi quando
+    entra in contatto con il giocatore facendo quindi apparire la schermata di vittoria (questo è stato fatto solo per finalità di testing e debugging). I nemici e il boss sono muniti di due AI_controller
+    diversi in modo da poter implementare opportuni movesets diversi.
