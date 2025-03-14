@@ -17,7 +17,7 @@ AClosedWall::AClosedWall()
 	Mesh->SetupAttachment(RootComponent);
 
 	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_closedWall"));
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/External_meshes/ClosedWallWithTorches/closedWallWithTorches"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/ClosedWall/closedWallWithTorches"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 

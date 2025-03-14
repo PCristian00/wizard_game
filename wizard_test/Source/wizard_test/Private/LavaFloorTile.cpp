@@ -15,7 +15,7 @@ ALavaFloorTile::ALavaFloorTile()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_lavaFloorTile"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/LavaFloorTile/SMesh_lavaFloorTile"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 

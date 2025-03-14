@@ -17,7 +17,7 @@ ADoor::ADoor()
 	Mesh->SetupAttachment(RootComponent);
 
 	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_door"));
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/External_meshes/Door/Door"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/Door/Door"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 }

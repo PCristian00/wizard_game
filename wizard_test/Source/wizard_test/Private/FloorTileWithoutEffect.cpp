@@ -15,7 +15,7 @@ AFloorTileWithoutEffect::AFloorTileWithoutEffect()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_standardFloorTile"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/StandardFloorTile/SMesh_standardFloorTile"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 }

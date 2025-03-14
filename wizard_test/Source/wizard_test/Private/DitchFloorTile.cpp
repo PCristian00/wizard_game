@@ -15,7 +15,7 @@ ADitchFloorTile::ADitchFloorTile()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_ditchFloorTile"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/DitchFloorTile/SMesh_ditchFloorTile"));
 	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/Boolean_CD2E65B6"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
