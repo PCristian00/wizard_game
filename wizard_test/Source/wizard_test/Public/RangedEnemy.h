@@ -10,8 +10,8 @@ UCLASS()
 class WIZARD_TEST_API ARangedEnemy : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ARangedEnemy();
 
@@ -21,7 +21,7 @@ protected:
 
 	virtual void Destroyed() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

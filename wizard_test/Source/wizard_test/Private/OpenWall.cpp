@@ -7,7 +7,7 @@
 // Sets default values
 AOpenWall::AOpenWall()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
@@ -16,16 +16,43 @@ AOpenWall::AOpenWall()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_openWall"));
+	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_openWall"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/External_meshes/OpenWallWithTorches/openWallWithTorches"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
+
+	Light_1 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_1"));
+	Light_2 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_2"));
+	Light_3 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_3"));
+	Light_4 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_4"));
+
+	Light_1->SetupAttachment(RootComponent);
+	Light_2->SetupAttachment(RootComponent);
+	Light_3->SetupAttachment(RootComponent);
+	Light_4->SetupAttachment(RootComponent);
+
+	Light_1->SetRelativeLocation(FVector(-100, -180, 300));
+	Light_2->SetRelativeLocation(FVector(-100, 180, 300));
+	Light_3->SetRelativeLocation(FVector(100, -180, 300));
+	Light_4->SetRelativeLocation(FVector(100, 180, 300));
+
+	Light_1->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
+	Light_2->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
+	Light_3->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
+	Light_4->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
+
+	Light_1->SetAttenuationRadius(1400);
+	Light_2->SetAttenuationRadius(1400);
+	Light_3->SetAttenuationRadius(1400);
+	Light_4->SetAttenuationRadius(1400);
+
 }
 
 // Called when the game starts or when spawned
 void AOpenWall::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	// Per impedire che due o più muri vengano spawnati nello stesso punto da RoomGenerators diversi...
 	TArray<AActor*> openWalls;
 	FVector otherWallPos;
@@ -40,6 +67,10 @@ void AOpenWall::BeginPlay()
 			}
 		}
 	}
+
+	//Evita di generare la navmesh sul muro (i nemici dentro una stanza rimangono al suo interno)
+	Mesh->SetCanEverAffectNavigation(false);
+
 }
 
 // Called every frame

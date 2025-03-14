@@ -5,11 +5,13 @@
 #include "chrono"
 #include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DitchFloorTile.h"
+#include "LavaFloorTile.h"
 #include "FloorTileWithoutEffect.h"
-#include "FloorTileWithEffect.h"
 #include "ClosedWall.h"
 #include "OpenWall.h"
 #include "Door.h"
+#include "Portal.h"
 #include "EnemySpawner.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -19,8 +21,8 @@ UCLASS()
 class WIZARD_TEST_API ARoomGenerator : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ARoomGenerator();
 
@@ -30,7 +32,7 @@ protected:
 
 	virtual void PostInitializeComponents() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -64,15 +66,15 @@ public:
 
 		// Crea il pattern nella sottomatrice in alto a destra
 		switch (rand() % 3) {
-			case 0:
-				CreateFlowerPattern(floorSubMatrix);
-				break;
-			case 1:
-				CreateCornersPattern(floorSubMatrix);
-				break;
-			case 2:
-				CreateDiagonalPattern(floorSubMatrix);
-				break;
+		case 0:
+			CreateFlowerPattern(floorSubMatrix);
+			break;
+		case 1:
+			CreateCornersPattern(floorSubMatrix);
+			break;
+		case 2:
+			CreateDiagonalPattern(floorSubMatrix);
+			break;
 		}
 
 		// Ruota la sottomatrice in senso antiorario di 90°, 180° e 270° e copiala negli angoli della matrice principale
@@ -80,13 +82,13 @@ public:
 
 		// Crea dei percorsi (di tiles senza effetto) che congiungono le porte della stanza
 		CreatePathsBetweenDoors(roomValue);
-		
+
 		// Spawna le mura attorno ad ogni stanza tenendo conto del numero e della posizione delle porte
 		SpawnWalls(roomValue);
 
 		// Spawna le porte nella stanza
 		SpawnDoors(roomValue);
-		
+
 		// Spawna le tiles che compongono il pavimento (alcune tiles applicano un effetto al giocatore, altre no)
 		SpawnFloorTiles();
 
@@ -97,9 +99,11 @@ public:
 		FActorSpawnParameters spawnParams;
 		AEnemySpawner* enemySpawner = GetWorld()->SpawnActor<AEnemySpawner>(GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 		enemiesInTheRoom = enemySpawner->SpawnEnemiesInsideRoom(floorTilesTypes);
-		
-		if (roomContainsPortal) {
-			UE_LOG(LogTemp, Error, TEXT("The room containing the portal is called: %s"), *GetDebugName(this));
+
+		if (enemiesInTheRoom == 0 && roomContainsPortal) {
+			//UE_LOG(LogTemp, Error, TEXT("The room containing the portal is called: %s"), *GetDebugName(this));
+			FVector posOffset = FVector(0.0, 0.0, 95.0);
+			GetWorld()->SpawnActor<APortal>(GetActorLocation() + posOffset, FRotator(0, 0, 0), spawnParams);
 		}
 	}
 
@@ -219,6 +223,7 @@ public:
 		FVector spawnPos = GetActorLocation();
 		int tilesOffset = (roomsLengthInTiles - 1) / 2;
 		int tilesPosX, tilesPosY;
+		int tileEffectType = rand() % 2;
 
 		for (int row = 0; row < roomsLengthInTiles; row++) {
 			for (int col = 0; col < roomsLengthInTiles; col++) {
@@ -226,7 +231,14 @@ public:
 				tilesPosY = (row - tilesOffset) * floorTilesWidth;
 
 				if (floorTilesTypes[row][col] == -1) {
-					GetWorld()->SpawnActor<AFloorTileWithEffect>(spawnPos + FVector(tilesPosX, tilesPosY, 0), FRotator(0, 0, 0), spawnParams);
+					switch (tileEffectType) {
+					case 0:
+						GetWorld()->SpawnActor<ALavaFloorTile>(spawnPos + FVector(tilesPosX, tilesPosY, -20), FRotator(0, 0, 0), spawnParams);
+						break;
+					case 1:
+						GetWorld()->SpawnActor<ADitchFloorTile>(spawnPos + FVector(tilesPosX, tilesPosY, -600), FRotator(0, 0, 0), spawnParams);
+						break;
+					}
 				}
 				else {
 					GetWorld()->SpawnActor<AFloorTileWithoutEffect>(spawnPos + FVector(tilesPosX, tilesPosY, 0), FRotator(0, 0, 0), spawnParams);
@@ -247,19 +259,10 @@ public:
 	}
 
 
-	void UpdateRoomUponEnemyDeath() {
-		UE_LOG(LogTemp, Error, TEXT("An enemy called this function!"));
-		enemiesInTheRoom--;
-		if (enemiesInTheRoom == 0) {
-			DeleteDoors();
-			//Spawna portale
-		}
-	}
-
 
 	/* Esempio del "flower pattern" su una matrice 9 x 9
 	*	0 -> tiles senza effetto     2 -> tiles con bonus/malus
-	*	
+	*
 	*	2 0 0 0 0 2 2 2 2
 	*	2 2 0 0 0 2 2 2 0				Sottomatrice 4 x 4
 	*	2 2 2 0 0 2 2 0 0					2 2 2 2
@@ -281,7 +284,7 @@ public:
 
 	/* Esempio del "corners pattern" su una matrice 9 x 9
 	*	0 -> tiles senza effetto     2 -> tiles con bonus/malus
-	*	
+	*
 	*	2 2 2 2 0 2 2 2 2
 	*	2 2 2 0 0 0 2 2 2				Sottomatrice 4 x 4
 	*	2 2 0 0 0 0 0 2 2					2 2 2 2
@@ -370,10 +373,29 @@ public:
 
 
 	UPROPERTY()
-	USceneComponent* Root;	
+	USceneComponent* Root;
 
 	UPROPERTY(EditAnywhere)
 	TArray<UBoxComponent*> triggers;
+
+
+	UFUNCTION(BlueprintCallable)
+	/* Tiene traccia della morte dei nemici e quando vengono tutti sconfitti
+	*  le porte della stanza vengono aperte e viene spawnato l'eventuale portale
+	*/
+	void UpdateRoomUponEnemyDeath() {
+		UE_LOG(LogTemp, Error, TEXT("An enemy called this function!"));
+		enemiesInTheRoom--;
+		if (enemiesInTheRoom == 0) {
+			DeleteDoors();
+			if (roomContainsPortal) {
+				FActorSpawnParameters spawnParams;
+				FVector posOffset = FVector(0.0, 0.0, 95.0);
+				GetWorld()->SpawnActor<APortal>(GetActorLocation() + posOffset, FRotator(0, 0, 0), spawnParams);
+			}
+		}
+	}
+
 
 	UFUNCTION()
 	void OnTriggerOverlap(class AActor* OverlappedActor, class AActor* OtherActor) {
@@ -400,6 +422,6 @@ public:
 
 	}
 
-	
+
 
 };

@@ -5,6 +5,8 @@
 #include "RoomGenerator.h"
 #include "CentralRoomGenerator.h"
 #include "Kismet/GameplayStatics.h"
+#include "NavMesh/NavMeshBoundsVolume.h"
+#include "NavMesh/RecastNavMesh.h"
 
 // Sets default values
 ALevelGenerator::ALevelGenerator()
@@ -14,6 +16,14 @@ ALevelGenerator::ALevelGenerator()
 
     Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
     RootComponent = Root;
+
+    /*
+    FActorSpawnParameters spawnInfo;
+    if (GetWorld() != nullptr) {
+        AActor* naviMesh = GetWorld()->SpawnActor<ANavMeshBoundsVolume>(GetActorLocation(), GetActorRotation(), spawnInfo);
+
+    }
+    */
 }
 
 // Called when the game starts or when spawned
@@ -61,6 +71,7 @@ void ALevelGenerator::BeginPlay()
 
     // Spawna al centro di ogni stanza un attore "RoomGenerator" il cui scopo è quello di spawnare
     // gli elementi interni alla stanza (muri, porte, pavimento, nemici, etc)
+    // Inoltre stabilisce quale stanza conterrà il portale per passare al livello successivo
     ARoomGenerator* spawnedRoom;
     ACentralRoomGenerator* spawnedCentralRoom;
     FActorSpawnParameters spawnParams;

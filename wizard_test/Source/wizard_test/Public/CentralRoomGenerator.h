@@ -5,7 +5,8 @@
 #include "chrono"
 #include "Kismet/GameplayStatics.h"
 #include "FloorTileWithoutEffect.h"
-#include "FloorTileWithEffect.h"
+#include "DitchFloorTile.h"
+#include "LavaFloorTile.h"
 #include "ClosedWall.h"
 #include "OpenWall.h"
 #include "Door.h"
@@ -18,8 +19,8 @@ UCLASS()
 class WIZARD_TEST_API ACentralRoomGenerator : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACentralRoomGenerator();
 
@@ -27,7 +28,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -168,6 +169,7 @@ public:
 		FVector spawnPos = GetActorLocation();
 		int tilesOffset = (roomsLengthInTiles - 1) / 2;
 		int tilesPosX, tilesPosY;
+		int tileEffectType = rand() % 2;
 
 		for (int row = 0; row < roomsLengthInTiles; row++) {
 			for (int col = 0; col < roomsLengthInTiles; col++) {
@@ -175,7 +177,14 @@ public:
 				tilesPosY = (row - tilesOffset) * floorTilesWidth;
 
 				if (floorTilesTypes[row][col] == -1) {
-					GetWorld()->SpawnActor<AFloorTileWithEffect>(spawnPos + FVector(tilesPosX, tilesPosY, 0), FRotator(0, 0, 0), spawnParams);
+					switch (tileEffectType) {
+					case 0:
+						GetWorld()->SpawnActor<ALavaFloorTile>(spawnPos + FVector(tilesPosX, tilesPosY, -20), FRotator(0, 0, 0), spawnParams);
+						break;
+					case 1:
+						GetWorld()->SpawnActor<ADitchFloorTile>(spawnPos + FVector(tilesPosX, tilesPosY, -600), FRotator(0, 0, 0), spawnParams);
+						break;
+					}
 				}
 				else {
 					GetWorld()->SpawnActor<AFloorTileWithoutEffect>(spawnPos + FVector(tilesPosX, tilesPosY, 0), FRotator(0, 0, 0), spawnParams);

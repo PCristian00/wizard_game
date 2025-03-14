@@ -6,7 +6,7 @@
 // Sets default values
 APortal::APortal()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
@@ -15,16 +15,24 @@ APortal::APortal()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_portal"));
+	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_portal"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/External_meshes/Portal/SMesh_magicPortal"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
+
+	Trigger = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
+	Trigger->SetupAttachment(RootComponent);
+	Trigger->SetRelativeLocation(GetActorLocation() + FVector(0, 0, 115));
+	Trigger->SetRelativeScale3D(FVector(3.2, 2.35, 3.25));
+
 }
 
 // Called when the game starts or when spawned
 void APortal::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	OnActorBeginOverlap.AddDynamic(this, &APortal::OnTriggerOverlap);
 }
 
 // Called every frame

@@ -7,7 +7,7 @@
 // Sets default values
 AMeleeEnemy::AMeleeEnemy()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 
@@ -17,11 +17,11 @@ AMeleeEnemy::AMeleeEnemy()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_meleeEnemy"));
+	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_meleeEnemy"));
 
-	Mesh->SetStaticMesh(MeshObj.Object);
-	Mesh->GetStaticMesh()->GetBounds();
-	
+	//Mesh->SetStaticMesh(MeshObj.Object);
+	//Mesh->GetStaticMesh()->GetBounds();
+
 }
 
 // Called when the game starts or when spawned

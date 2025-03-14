@@ -6,7 +6,7 @@
 // Sets default values
 AFloorTileWithoutEffect::AFloorTileWithoutEffect()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
@@ -15,7 +15,7 @@ AFloorTileWithoutEffect::AFloorTileWithoutEffect()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_floorTileStandard"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_standardFloorTile"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 }
@@ -24,7 +24,7 @@ AFloorTileWithoutEffect::AFloorTileWithoutEffect()
 void AFloorTileWithoutEffect::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
