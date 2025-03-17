@@ -23,7 +23,7 @@ AEnemySpawner::AEnemySpawner()
 		UE_LOG(LogTemp, Error, TEXT("Melee enemy BP was not found"));
 	}
 
-	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_2(TEXT("/Game/AI/enemy_melee/enemy_Spider/BP_enemy_spider_ice.BP_enemy_spider_ice_C"));
+	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_2(TEXT("/Game/AI/enemy_fly/enemy_Bat/BP_C_enemy_bat_fire.BP_C_enemy_bat_fire_C"));
 	if (AssetFile_2.Class != nullptr) {
 		rangedEnemy = AssetFile_2.Class;
 	}

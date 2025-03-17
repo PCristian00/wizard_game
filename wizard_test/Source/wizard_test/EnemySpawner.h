@@ -87,7 +87,7 @@ public:
 					}
 					else {
 						//GetWorld()->SpawnActor<AMeleeEnemy>(spawnPos + FVector(enemyPosX, enemyPosY, 100), FRotator(0, 0, 0), spawnParams);
-						GetWorld()->SpawnActor<ACharacter>(rangedEnemy, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+						GetWorld()->SpawnActor<ACharacter>(rangedEnemy, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
 					}
 
 					// Setta l'elemento della matrice a zero per indicare che sulla tile è spawnato un nemico
