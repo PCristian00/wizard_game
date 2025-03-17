@@ -15,7 +15,7 @@ ALavaFloorTile::ALavaFloorTile()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/LevelPrototyping/Meshes/SM_ChamferCube"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/LavaFloorTile/Meshes/SMesh_lavaFloorTile"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 
