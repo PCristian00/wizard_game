@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Components/BoxComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "DitchFloorTile.generated.h"
@@ -10,8 +11,8 @@ UCLASS()
 class WIZARD_TEST_API ADitchFloorTile : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ADitchFloorTile();
 
@@ -19,8 +20,18 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+
+	UPROPERTY()
+	USceneComponent* Root;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* Mesh;
+
+	UPROPERTY()
+	UBoxComponent* Trigger;
 
 };
