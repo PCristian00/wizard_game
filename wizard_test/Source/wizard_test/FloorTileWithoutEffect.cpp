@@ -6,16 +6,25 @@
 // Sets default values
 AFloorTileWithoutEffect::AFloorTileWithoutEffect()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	RootComponent = Root;
+
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetupAttachment(RootComponent);
+
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/LevelPrototyping/Meshes/SM_ChamferCube"));
+
+	Mesh->SetStaticMesh(MeshObj.Object);
 }
 
 // Called when the game starts or when spawned
 void AFloorTileWithoutEffect::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
