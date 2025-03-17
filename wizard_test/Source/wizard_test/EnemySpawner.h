@@ -34,17 +34,13 @@ public:
 
 
 	// Spawna un numero random di nemici di tipo melee e/o ranged
-	int SpawnEnemiesInsideRoom(int floorMatrix[roomsLengthInTiles][roomsLengthInTiles]) {
-		int x, y, enemiesToSpawn, enemiesSpawned, enemyPosX, enemyPosY, distanceX, distanceY;
+	void SpawnEnemiesInsideRoom(int floorMatrix[roomsLengthInTiles][roomsLengthInTiles], int enemiesToSpawn) {
+		int x, y, enemyPosX, enemyPosY, distanceX, distanceY;
 		FActorSpawnParameters spawnParams;
 		FVector spawnPos = GetActorLocation();
 		int enemyPosOffset = (roomsLengthInTiles - 1) / 2;
 		int floorCentre = enemyPosOffset;
 
-		// Scegli randomicamente quanti nemici spawnare MIN: 0   MAX: maxEnemiesInsideOneRoom
-		srand(static_cast<long unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));
-		enemiesToSpawn = rand() % (maxEnemiesInsideOneRoom + 1);
-		enemiesSpawned = 0;
 
 		while (enemiesToSpawn > 0) {
 			// Seleziona a caso una delle tiles che compongono il pavimento della stanza
@@ -93,12 +89,10 @@ public:
 					// Setta l'elemento della matrice a zero per indicare che sulla tile è spawnato un nemico
 					floorMatrix[x][y] = 0;
 					enemiesToSpawn--;
-					enemiesSpawned++;
 				}
 			}
 		}
 
-		return enemiesSpawned;
 	}
 
 	UPROPERTY()

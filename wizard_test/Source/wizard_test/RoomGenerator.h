@@ -42,6 +42,7 @@ public:
 	static const int wallsWidth = 100; // spessore dei muri delle stanze
 	static const int floorCentre = (roomsLengthInTiles - 1) / 2;
 	int roomID, enemiesInTheRoom;
+	int maxEnemiesInsideOneRoom = 4;
 	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = { 0 };
 	bool playerEnteredRoomAlready = false;
 	bool roomContainsPortal = false;
@@ -95,13 +96,13 @@ public:
 		// Elimina i triggers spawnati davanti a delle mura senza porte
 		DeleteUselessTriggers(roomValue);
 
-		// Spawna l'attore "EnemySpawner" che si occuperà di popolare la stanza con i nemici
-		FActorSpawnParameters spawnParams;
-		AEnemySpawner* enemySpawner = GetWorld()->SpawnActor<AEnemySpawner>(GetActorLocation(), FRotator(0, 0, 0), spawnParams);
-		enemiesInTheRoom = enemySpawner->SpawnEnemiesInsideRoom(floorTilesTypes);
+		// Viene stabilito il numero di nemici da spawnare nella stanza
+		srand(static_cast<long unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));
+		enemiesInTheRoom = rand() % (maxEnemiesInsideOneRoom + 1);
 
 		if (enemiesInTheRoom == 0 && roomContainsPortal) {
 			//UE_LOG(LogTemp, Error, TEXT("The room containing the portal is called: %s"), *GetDebugName(this));
+			FActorSpawnParameters spawnParams;
 			FVector posOffset = FVector(0.0, 0.0, 95.0);
 			GetWorld()->SpawnActor<APortal>(GetActorLocation() + posOffset, FRotator(0, 0, 0), spawnParams);
 		}
@@ -404,11 +405,16 @@ public:
 
 		//I trigger delle porte rispondono alle collisioni solo se attraversati dal player
 		if (actorName == nameTarget) {
-			UE_LOG(LogTemp, Error, TEXT("Name match!"));
 			if (!playerEnteredRoomAlready) {
 				playerEnteredRoomAlready = true;
-				//Se il giocatore entra per la prima volta nella stanza e ci sono dei nemici, spawna le porte
+				//Se il giocatore entra per la prima volta nella stanza e dovrebbero esserci dei nemici...
 				if (enemiesInTheRoom > 0) {
+					// ...Spawna l'attore "EnemySpawner" che si occuperà di popolare la stanza con i nemici
+					FActorSpawnParameters spawnParams;
+					AEnemySpawner* enemySpawner = GetWorld()->SpawnActor<AEnemySpawner>(GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+					enemySpawner->SpawnEnemiesInsideRoom(floorTilesTypes, enemiesInTheRoom);
+
+					// e infine spawna le porte
 					SpawnDoors(roomID);
 				}
 				else { //Se il giocatore entra per la prima volta nella stanza e non ci sono dei nemici, distruggi le porte
