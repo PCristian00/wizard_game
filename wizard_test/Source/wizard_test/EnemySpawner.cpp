@@ -15,7 +15,7 @@ AEnemySpawner::AEnemySpawner()
 	RootComponent = Root;
 
 
-	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_1(TEXT("/Game/NavigationSystem/MeleeMannequin.MeleeMannequin_C"));
+	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_1(TEXT("/Game/AI/enemy_melee/enemy_Spider/BP_enemy_spider_ice.BP_enemy_spider_ice_C"));
 	if (AssetFile_1.Class != nullptr) {
 		meleeEnemy = AssetFile_1.Class;
 	}
@@ -23,7 +23,7 @@ AEnemySpawner::AEnemySpawner()
 		UE_LOG(LogTemp, Error, TEXT("Melee enemy BP was not found"));
 	}
 
-	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_2(TEXT("/Game/NavigationSystem/RangedMannequin.RangedMannequin_C"));
+	static ConstructorHelpers::FClassFinder<ACharacter> AssetFile_2(TEXT("/Game/AI/enemy_melee/enemy_Spider/BP_enemy_spider_ice.BP_enemy_spider_ice_C"));
 	if (AssetFile_2.Class != nullptr) {
 		rangedEnemy = AssetFile_2.Class;
 	}

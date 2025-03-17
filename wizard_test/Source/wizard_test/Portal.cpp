@@ -16,7 +16,7 @@ APortal::APortal()
 	Mesh->SetupAttachment(RootComponent);
 
 	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/ThirdPerson/Maps/_GENERATED/barto/SMesh_portal"));
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/LevelPrototyping/Meshes/SM_ChamferCube"));
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/Portal/Meshes/SMesh_magicPortal"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 
