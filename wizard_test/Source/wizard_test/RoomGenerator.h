@@ -399,11 +399,12 @@ public:
 
 	UFUNCTION()
 	void OnTriggerOverlap(class AActor* OverlappedActor, class AActor* OtherActor) {
-		FString nameTarget = "BP_ThirdPersonCharacter_C_0";
+		FString nameTarget = "BP_MainCharacter_C_0";
 		FString actorName = OtherActor->GetDebugName(OtherActor);
 
 		//I trigger delle porte rispondono alle collisioni solo se attraversati dal player
 		if (actorName == nameTarget) {
+			UE_LOG(LogTemp, Error, TEXT("Name match!"));
 			if (!playerEnteredRoomAlready) {
 				playerEnteredRoomAlready = true;
 				//Se il giocatore entra per la prima volta nella stanza e ci sono dei nemici, spawna le porte
