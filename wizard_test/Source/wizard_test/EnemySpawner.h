@@ -26,7 +26,8 @@ protected:
 	static const int roomsLengthInTiles = 7; // lunghezza (espressa in tiles) del lato delle stanze
 	static const int floorTilesWidth = 200; // lunghezza delle tiles quadrate componenti il pavimento delle stanze
 	int maxEnemiesInsideOneRoom = 4;
-	TSubclassOf<ACharacter> meleeEnemy, rangedEnemy;
+	TSubclassOf<ACharacter> iceSpider, fireSpider, lightSpider, iceSnake, lightSnake, boar; // nemici melee
+	TSubclassOf<ACharacter> iceBat, fireBat, lightBat, iceWasp, fireWasp, lightWasp; // nemici ranged
 
 public:
 	// Called every frame
@@ -76,14 +77,43 @@ public:
 				*/
 				if (distanceX * distanceY != 0) {
 
-					// Spawna randomicamente un nemico di tipo "melee" o "ranged"
-					if (rand() % 2 == 0) {
-						//GetWorld()->SpawnActor<ARangedEnemy>(spawnPos + FVector(enemyPosX, enemyPosY, 100), FRotator(0, 0, 0), spawnParams);
-						GetWorld()->SpawnActor<ACharacter>(meleeEnemy, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
-					}
-					else {
-						//GetWorld()->SpawnActor<AMeleeEnemy>(spawnPos + FVector(enemyPosX, enemyPosY, 100), FRotator(0, 0, 0), spawnParams);
-						GetWorld()->SpawnActor<ACharacter>(rangedEnemy, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+					switch (rand() % 12) {
+						case 0:
+							GetWorld()->SpawnActor<ACharacter>(iceSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 1:
+							GetWorld()->SpawnActor<ACharacter>(fireSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 2:
+							GetWorld()->SpawnActor<ACharacter>(lightSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 3:
+							GetWorld()->SpawnActor<ACharacter>(iceSnake, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 4:
+							GetWorld()->SpawnActor<ACharacter>(lightSnake, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 5:
+							GetWorld()->SpawnActor<ACharacter>(boar, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 6:
+							GetWorld()->SpawnActor<ACharacter>(iceBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 7:
+							GetWorld()->SpawnActor<ACharacter>(fireBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 8:
+							GetWorld()->SpawnActor<ACharacter>(lightBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 9:
+							GetWorld()->SpawnActor<ACharacter>(iceWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 10:
+							GetWorld()->SpawnActor<ACharacter>(fireWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 11:
+							GetWorld()->SpawnActor<ACharacter>(lightBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							break;
 					}
 
 					// Setta l'elemento della matrice a zero per indicare che sulla tile è spawnato un nemico
