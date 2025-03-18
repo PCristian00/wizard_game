@@ -22,8 +22,8 @@ protected:
     static const int floorTilesWidth = 200; // lunghezza delle tiles quadrate componenti il pavimento delle stanze
     static const int wallsWidth = 100; // spessore dei muri delle stanze
 
-    int roomsPathsMatrix[levelSize][levelSize] = { 0 }; // matrice che specifica i percorsi di stanze nel piano
-    int doorsPositionMatrix[levelSize][levelSize] = { 0 }; // matrice che specifica numero e posizione delle porte nelle stanze
+    int roomsPathsMatrix[levelSize][levelSize] = {}; // matrice che specifica i percorsi di stanze nel piano
+    int doorsPositionMatrix[levelSize][levelSize] = {}; // matrice che specifica numero e posizione delle porte nelle stanze
     TArray< TTuple<int, int> > roomsQueue; // queue per lo sviluppo dei vari percorsi nel piano
     int indexOffset = -1; // offset per posizionare correttamente le stanze nella queue
     int roomsInLongestPath = 0; // tiene traccia del numero di stanze contenute nel percorso più lungo

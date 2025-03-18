@@ -43,14 +43,14 @@ public:
 	static const int floorCentre = (roomsLengthInTiles - 1) / 2;
 	int roomID, enemiesInTheRoom;
 	int maxEnemiesInsideOneRoom = 4;
-	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = { 0 };
+	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = {};
 	bool playerEnteredRoomAlready = false;
 	bool roomContainsPortal = false;
 
 
 	void GenerateFloor(int roomValue) {
 		roomID = roomValue;
-		int floorSubMatrix[floorCentre][floorCentre] = { 0 };
+		int floorSubMatrix[floorCentre][floorCentre] = {};
 
 		// Riempie con tutti -2 (tiles senza effetto) la matrice primaria e la sottomatrice
 		for (int x = 0; x < roomsLengthInTiles; x++) {
@@ -348,7 +348,7 @@ public:
 
 	//Ruota una matrice in senso antiorario di 90° k volte, dove k = 0,1,2,...
 	void RotateMatrix(int matrix[floorCentre][floorCentre], int rotations) {
-		int tempMatrix[floorCentre][floorCentre] = { 0 };
+		int tempMatrix[floorCentre][floorCentre] = {};
 
 		// il numero di rotazioni è (rotations % 4) perché ogni 4 rotazioni
 		// è come se la matrice non venisse ruotata affatto
