@@ -76,7 +76,7 @@ public:
 				*		 l
 				*/
 				if (distanceX * distanceY != 0) {
-
+					
 					switch (rand() % 12) {
 						case 0:
 							GetWorld()->SpawnActor<ACharacter>(iceSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
@@ -112,7 +112,7 @@ public:
 							GetWorld()->SpawnActor<ACharacter>(fireWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 11:
-							GetWorld()->SpawnActor<ACharacter>(lightBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(lightWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
 							break;
 					}
 
