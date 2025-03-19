@@ -39,13 +39,13 @@ public:
 
 	UFUNCTION()
 	void OnTriggerOverlap(class AActor* OverlappedActor, class AActor* OtherActor) {
-		FString nameTarget = "BP_ThirdPersonCharacter_C_0";
+		FString nameTarget = "BP_MainCharacter_C_0";
 		FString actorName = OtherActor->GetDebugName(OtherActor);
 
 		if (actorName == nameTarget) {
 			FString currentLevel = GetWorld()->GetMapName();
 
-			if (currentLevel == "UEDPIE_0_ThirdPersonMap") {
+			if (currentLevel == "UEDPIE_0_Level_1") {
 				UE_LOG(LogTemp, Error, TEXT("You just entered level 2"));
 				UGameplayStatics::OpenLevel(GetWorld(), "Level_2");
 			}
