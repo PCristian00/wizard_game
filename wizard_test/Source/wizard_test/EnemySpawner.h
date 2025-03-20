@@ -76,7 +76,6 @@ public:
 				*		 l
 				*/
 				if (distanceX * distanceY != 0) {
-					
 					switch (rand() % 12) {
 						case 0:
 							GetWorld()->SpawnActor<ACharacter>(iceSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
@@ -88,31 +87,31 @@ public:
 							GetWorld()->SpawnActor<ACharacter>(lightSpider, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 3:
-							GetWorld()->SpawnActor<ACharacter>(iceSnake, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(iceSnake, spawnPos + FVector(enemyPosX, enemyPosY, 220), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 4:
-							GetWorld()->SpawnActor<ACharacter>(lightSnake, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(lightSnake, spawnPos + FVector(enemyPosX, enemyPosY, 220), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 5:
-							GetWorld()->SpawnActor<ACharacter>(boar, spawnPos + FVector(enemyPosX, enemyPosY, 200), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(boar, spawnPos + FVector(enemyPosX, enemyPosY, 220), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 6:
-							GetWorld()->SpawnActor<ACharacter>(iceBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(iceBat, spawnPos + FVector(enemyPosX, enemyPosY, 240), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 7:
-							GetWorld()->SpawnActor<ACharacter>(fireBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(fireBat, spawnPos + FVector(enemyPosX, enemyPosY, 240), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 8:
-							GetWorld()->SpawnActor<ACharacter>(lightBat, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(lightBat, spawnPos + FVector(enemyPosX, enemyPosY, 240), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 9:
-							GetWorld()->SpawnActor<ACharacter>(iceWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(iceWasp, spawnPos + FVector(enemyPosX, enemyPosY, 280), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 10:
-							GetWorld()->SpawnActor<ACharacter>(fireWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(fireWasp, spawnPos + FVector(enemyPosX, enemyPosY, 280), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 11:
-							GetWorld()->SpawnActor<ACharacter>(lightWasp, spawnPos + FVector(enemyPosX, enemyPosY, 500), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(lightWasp, spawnPos + FVector(enemyPosX, enemyPosY, 280), FRotator(0, 0, 0), spawnParams);
 							break;
 					}
 

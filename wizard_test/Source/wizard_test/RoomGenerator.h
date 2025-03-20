@@ -42,7 +42,7 @@ public:
 	static const int wallsWidth = 100; // spessore dei muri delle stanze
 	static const int floorCentre = (roomsLengthInTiles - 1) / 2;
 	int roomID, enemiesInTheRoom;
-	int maxEnemiesInsideOneRoom = 4;
+	int maxEnemiesInsideOneRoom = 10;
 	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = {};
 	bool playerEnteredRoomAlready = false;
 	bool roomContainsPortal = false;
