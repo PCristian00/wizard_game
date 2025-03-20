@@ -93,7 +93,7 @@ public:
 							GetWorld()->SpawnActor<ACharacter>(lightSnake, spawnPos + FVector(enemyPosX, enemyPosY, 220), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 5:
-							GetWorld()->SpawnActor<ACharacter>(boar, spawnPos + FVector(enemyPosX, enemyPosY, 220), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<ACharacter>(boar, spawnPos + FVector(enemyPosX, enemyPosY, 300), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 6:
 							GetWorld()->SpawnActor<ACharacter>(iceBat, spawnPos + FVector(enemyPosX, enemyPosY, 240), FRotator(0, 0, 0), spawnParams);
