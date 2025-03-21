@@ -98,7 +98,8 @@ public:
 
 		// Viene stabilito il numero di nemici da spawnare nella stanza
 		srand(static_cast<long unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));
-		enemiesInTheRoom = rand() % (maxEnemiesInsideOneRoom + 1);
+		//enemiesInTheRoom = rand() % (maxEnemiesInsideOneRoom + 1);
+		enemiesInTheRoom = 0;
 
 		if (enemiesInTheRoom == 0 && roomContainsPortal) {
 			//UE_LOG(LogTemp, Error, TEXT("The room containing the portal is called: %s"), *GetDebugName(this));

@@ -41,6 +41,7 @@ public:
 	int enemiesInTheRoom = 0;
 	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = {};
 	bool roomHasBeenClosed = false;
+	TSubclassOf<AActor> lifeTotem;
 
 
 	void GenerateFloor(int roomValue) {

@@ -12,6 +12,14 @@ ACentralRoomGenerator::ACentralRoomGenerator()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	RootComponent = Root;
 
+	static ConstructorHelpers::FClassFinder<AActor> lifeTotemAsset(TEXT("/Game/HealthTotem/LifeTotem/BP_HealthTotem.BP_HealthTotem"));
+	if (lifeTotemAsset.Class != nullptr) {
+		lifeTotem = lifeTotemAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Life_totem was not found"));
+	}
+
 }
 
 // Called when the game starts or when spawned

@@ -37,12 +37,14 @@ public:
 	UBoxComponent* Trigger;
 
 
+	/*
 	UFUNCTION()
 	void OnTriggerOverlap(class AActor* OverlappedActor, class AActor* OtherActor) {
 		FString nameTarget = "BP_MainCharacter_C_0";
 		FString actorName = OtherActor->GetDebugName(OtherActor);
 
 		if (actorName == nameTarget) {
+			/*
 			FString currentLevel = GetWorld()->GetMapName();
 
 			if (currentLevel == "UEDPIE_0_Level_1") {
@@ -56,6 +58,7 @@ public:
 			else {
 				UKismetSystemLibrary::QuitGame(GetWorld(), nullptr, EQuitPreference::Quit, true);
 			}
+			*/
 
 			/* Usa questi if statements quando apri il gioco in modalità standalone (i nomi dei livelli cambiano)
 
@@ -72,9 +75,10 @@ public:
 			else {
 				UKismetSystemLibrary::QuitGame(GetWorld(), nullptr, EQuitPreference::Quit, true);
 			}
-			*/
+			
 
 		}
 
 	}
+	*/
 };
