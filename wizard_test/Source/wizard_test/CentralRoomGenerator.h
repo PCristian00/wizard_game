@@ -41,6 +41,7 @@ public:
 	int enemiesInTheRoom = 0;
 	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = {};
 	bool roomHasBeenClosed = false;
+	TSubclassOf<AActor> lifeTotem;
 
 
 	void GenerateFloor(int roomValue) {
@@ -85,6 +86,8 @@ public:
 		// Spawna le tiles che compongono il pavimento (alcune tiles applicano un effetto al giocatore, altre no)
 		SpawnFloorTiles();
 
+		// Spawna il totem per il recupero della vita
+		SpawnTotem();
 	}
 
 
@@ -191,6 +194,56 @@ public:
 				}
 			}
 		}
+	}
+
+	//Spawna il totem per il recupero della vita
+	void SpawnTotem() {
+		bool totemSpawned = false;
+		int x, y, totemPosX, totemPosY, distanceX, distanceY;
+		int totemPosOffset = floorCentre;
+		FVector spawnPos = GetActorLocation();
+		FActorSpawnParameters spawnParams;
+
+		// Seleziona a caso una delle tiles che compongono il pavimento della stanza
+		while (!totemSpawned) {
+			srand(static_cast<long unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));
+			x = rand() % roomsLengthInTiles;
+			y = rand() % roomsLengthInTiles;
+
+			/* Il totem viene spawnato su tale tile a patto che:
+			*	I - la tile sia una tile senza effetto (bonus/malus)
+			*	II - la tile non sia di fronte ad una porta
+			*	III - la tile non sia quella centrale
+			*/
+
+			if (floorTilesTypes[x][y] == -2) {
+				totemPosX = (y - totemPosOffset) * floorTilesWidth;
+				totemPosY = (x - totemPosOffset) * floorTilesWidth;
+
+				distanceX = x - floorCentre;
+				distanceY = y - floorCentre;
+
+				/* Dato che la stanza è un quadrato di lato dispari e dato che le porte sono disposte
+				*  al centro dei lati di tale quadrato, si ha sempre che una delle coordinate X,Y di una tile vicino
+				*  ad una porta è pari a "floorCentre". Di conseguenza una tra "distanceX" e "distanceY" sarà zero e
+				*  quindi il loro prodotto farà zero.
+				*
+				*  O O X O O
+				*  O O O O O
+				*  X O O O X      dove 'l' (in questo caso 2) è "floorCentre"
+				*  O O O O O
+				*  O O X O O
+				*
+				*      < - >
+				*		 l
+				*/
+				if (distanceX * distanceY != 0 && distanceX != floorCentre && distanceY != floorCentre) {
+					GetWorld()->SpawnActor<AActor>(lifeTotem, spawnPos + FVector(totemPosX, totemPosY, 160), FRotator(0, 0, 0), spawnParams);
+					totemSpawned = true;
+				}
+			}
+		}
+
 	}
 
 
