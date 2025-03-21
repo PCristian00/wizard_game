@@ -42,10 +42,10 @@ AOpenWall::AOpenWall()
 	Light_3->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
 	Light_4->SetLightColor(FLinearColor(1.0f, 0.53f, 0.012f, true));
 
-	Light_1->SetAttenuationRadius(1400);
-	Light_2->SetAttenuationRadius(1400);
-	Light_3->SetAttenuationRadius(1400);
-	Light_4->SetAttenuationRadius(1400);
+	Light_1->SetAttenuationRadius(500);
+	Light_2->SetAttenuationRadius(500);
+	Light_3->SetAttenuationRadius(500);
+	Light_4->SetAttenuationRadius(500);
 
 	Tags.Add("muroAperto");
 
