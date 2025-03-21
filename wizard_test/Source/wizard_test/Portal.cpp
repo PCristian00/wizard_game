@@ -32,7 +32,7 @@ void APortal::BeginPlay()
 {
 	Super::BeginPlay();
 
-	OnActorBeginOverlap.AddDynamic(this, &APortal::OnTriggerOverlap);
+	//OnActorBeginOverlap.AddDynamic(this, &APortal::OnTriggerOverlap);
 }
 
 // Called every frame

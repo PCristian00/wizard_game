@@ -12,7 +12,7 @@ ACentralRoomGenerator::ACentralRoomGenerator()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	RootComponent = Root;
 
-	static ConstructorHelpers::FClassFinder<AActor> lifeTotemAsset(TEXT("/Game/HealthTotem/LifeTotem/BP_HealthTotem.BP_HealthTotem"));
+	static ConstructorHelpers::FClassFinder<AActor> lifeTotemAsset(TEXT("/Game/HealthTotem/LifeTotem/BP_HealthTotem.BP_HealthTotem_C"));
 	if (lifeTotemAsset.Class != nullptr) {
 		lifeTotem = lifeTotemAsset.Class;
 	}
