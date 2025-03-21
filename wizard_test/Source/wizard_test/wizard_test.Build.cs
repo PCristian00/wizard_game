@@ -10,6 +10,7 @@ public class wizard_test : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
         PublicDependencyModuleNames.Add("NavigationSystem");
+        PublicDependencyModuleNames.Add("GameplayTags");
 
         //PrivateDependencyModuleNames.AddRange(new string[] {  });
 

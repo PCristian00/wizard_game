@@ -46,6 +46,8 @@ AClosedWall::AClosedWall()
 	Light_3->SetAttenuationRadius(1400);
 	Light_4->SetAttenuationRadius(1400);
 
+	Tags.Add("muroNonSchivabile");
+
 }
 
 // Called when the game starts or when spawned

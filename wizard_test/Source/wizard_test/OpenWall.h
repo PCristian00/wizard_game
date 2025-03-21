@@ -12,10 +12,10 @@ class WIZARD_TEST_API AOpenWall : public AActor
 {
 	GENERATED_BODY()
 
+
 public:
 	// Sets default values for this actor's properties
 	AOpenWall();
-
 
 protected:
 	// Called when the game starts or when spawned
@@ -27,7 +27,6 @@ public:
 
 	const int roomsLengthInTiles = 7; // lunghezza (espressa in tiles) del lato delle stanze
 	const int floorTilesWidth = 200; // lunghezza delle tiles quadrate componenti il pavimento delle stanze
-
 
 	UPROPERTY()
 	USceneComponent* Root;

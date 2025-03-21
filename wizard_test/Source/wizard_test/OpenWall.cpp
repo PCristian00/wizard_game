@@ -7,6 +7,7 @@
 // Sets default values
 AOpenWall::AOpenWall()
 {
+
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -45,6 +46,8 @@ AOpenWall::AOpenWall()
 	Light_2->SetAttenuationRadius(1400);
 	Light_3->SetAttenuationRadius(1400);
 	Light_4->SetAttenuationRadius(1400);
+
+	Tags.Add("muroNonSchivabile");
 
 }
 

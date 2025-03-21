@@ -20,6 +20,8 @@ ADoor::ADoor()
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/Door/Meshes/Door"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
+
+	Tags.Add("muroNonSchivabile");
 }
 
 // Called when the game starts or when spawned
