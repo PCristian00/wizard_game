@@ -21,7 +21,7 @@ ADoor::ADoor()
 
 	Mesh->SetStaticMesh(MeshObj.Object);
 
-	Tags.Add("muroNonSchivabile");
+	Tags.Add("porta");
 }
 
 // Called when the game starts or when spawned

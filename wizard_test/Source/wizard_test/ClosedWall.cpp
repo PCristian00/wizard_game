@@ -46,7 +46,7 @@ AClosedWall::AClosedWall()
 	Light_3->SetAttenuationRadius(1400);
 	Light_4->SetAttenuationRadius(1400);
 
-	Tags.Add("muroNonSchivabile");
+	Tags.Add("muroChiuso");
 
 }
 
