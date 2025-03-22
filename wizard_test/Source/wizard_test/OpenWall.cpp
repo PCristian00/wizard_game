@@ -20,6 +20,7 @@ AOpenWall::AOpenWall()
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/OpenWallWithTorches/Meshes/openWallWithTorches"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
+	Mesh->SetCollisionObjectType(ECollisionChannel::ECC_WorldStatic);
 
 	Light_1 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_1"));
 	Light_2 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_2"));

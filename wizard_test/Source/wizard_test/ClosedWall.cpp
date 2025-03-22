@@ -19,6 +19,7 @@ AClosedWall::AClosedWall()
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/ClosedWallWithTorches/Meshes/closedWallWithTorches"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);
+	Mesh->SetCollisionObjectType(ECollisionChannel::ECC_WorldStatic);
 
 	Light_1 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_1"));
 	Light_2 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light_2"));
