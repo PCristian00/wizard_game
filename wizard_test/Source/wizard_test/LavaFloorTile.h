@@ -35,17 +35,4 @@ public:
 	UBoxComponent* Trigger;
 
 
-	UFUNCTION()
-	void OnTriggerOverlap(class AActor* OverlappedActor, class AActor* OtherActor) {
-		FString nameTarget = "BP_ThirdPersonCharacter_C_0";
-		FString actorName = OtherActor->GetDebugName(OtherActor);
-
-		if (actorName == nameTarget) {
-			GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("You stepped on lava!"), true);
-			//Activate player's functions to lower health and play (optional) animation
-		}
-
-	}
-
-
 };

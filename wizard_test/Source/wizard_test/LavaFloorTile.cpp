@@ -35,8 +35,6 @@ void ALavaFloorTile::BeginPlay()
 	// (i nemici non devono camminare su tali tiles)
 	Mesh->SetCanEverAffectNavigation(false);
 
-	//Collega la funzione delegato al trigger
-	OnActorBeginOverlap.AddDynamic(this, &ALavaFloorTile::OnTriggerOverlap);
 }
 
 // Called every frame

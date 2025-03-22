@@ -101,7 +101,6 @@ public:
 		enemiesInTheRoom = rand() % (maxEnemiesInsideOneRoom + 1);
 
 		if (enemiesInTheRoom == 0 && roomContainsPortal) {
-			//UE_LOG(LogTemp, Error, TEXT("The room containing the portal is called: %s"), *GetDebugName(this));
 			FActorSpawnParameters spawnParams;
 			FVector posOffset = FVector(0.0, 0.0, 95.0);
 			GetWorld()->SpawnActor<APortal>(GetActorLocation() + posOffset, FRotator(0, 0, 0), spawnParams);
@@ -109,7 +108,7 @@ public:
 	}
 
 
-	// Ruota la sottomatrice in senso antiorario di 90°, 180° e 270° e copiala negli angoli della matrice principale
+	// Ruota la sottomatrice in senso antiorario di 90°, 180° e 270° e copiala agli angoli della matrice principale
 	void FillMainMatrix(int matrix[floorCentre][floorCentre]) {
 		int offsetPosX[4] = { 0, 0, 1, 1 };
 		int offsetPosY[4] = { 1, 0, 0, 1 };
@@ -381,7 +380,7 @@ public:
 
 
 	UFUNCTION(BlueprintCallable)
-	/* Tiene traccia della morte dei nemici e quando vengono tutti sconfitti
+	/* Tiene traccia della morte dei nemici: quando vengono tutti sconfitti
 	*  le porte della stanza vengono aperte e viene spawnato l'eventuale portale
 	*/
 	void UpdateRoomUponEnemyDeath() {
@@ -409,7 +408,7 @@ public:
 				playerEnteredRoomAlready = true;
 				//Se il giocatore entra per la prima volta nella stanza e dovrebbero esserci dei nemici...
 				if (enemiesInTheRoom > 0) {
-					// ...Spawna l'attore "EnemySpawner" che si occuperà di popolare la stanza con i nemici
+					// ...spawna l'attore "EnemySpawner" che si occuperà di popolare la stanza con i nemici
 					FActorSpawnParameters spawnParams;
 					AEnemySpawner* enemySpawner = GetWorld()->SpawnActor<AEnemySpawner>(GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 					enemySpawner->SpawnEnemiesInsideRoom(floorTilesTypes, enemiesInTheRoom);
@@ -419,10 +418,6 @@ public:
 				}
 				else { //Se il giocatore entra per la prima volta nella stanza e non ci sono dei nemici, distruggi le porte
 					DeleteDoors();
-					if (roomContainsPortal) {
-						UE_LOG(LogTemp, Error, TEXT("You have entered the room containing the portal"));
-						//Spawna il portale al centro della stanza
-					}
 				}
 			}
 		}

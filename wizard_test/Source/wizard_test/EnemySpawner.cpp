@@ -14,8 +14,7 @@ AEnemySpawner::AEnemySpawner()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	RootComponent = Root;
 
-	// Assegnazione degli assets dei nemici alle rispettive classi C++
-	// NEMICI MELEE
+	// Assegnazione degli assets dei nemici melee alle rispettive classi C++
 	static ConstructorHelpers::FClassFinder<ACharacter> iceSpiderAsset(TEXT("/Game/AI/enemy_melee/enemy_Spider/BP_enemy_spider_ice.BP_enemy_spider_ice_C"));
 	if (iceSpiderAsset.Class != nullptr) {
 		iceSpider = iceSpiderAsset.Class;
@@ -64,7 +63,7 @@ AEnemySpawner::AEnemySpawner()
 		UE_LOG(LogTemp, Error, TEXT("Boar was not found"));
 	}
 
-	// NEMICI RANGED
+	// Assegnazione degli assets dei nemici ranged alle rispettive classi C++
 	static ConstructorHelpers::FClassFinder<ACharacter> iceBatAsset(TEXT("/Game/AI/enemy_fly/enemy_Bat/BP_enemy_bat_ice.BP_enemy_bat_ice_C"));
 	if (iceBatAsset.Class != nullptr) {
 		iceBat = iceBatAsset.Class;

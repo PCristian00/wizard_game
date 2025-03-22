@@ -54,16 +54,6 @@ protected:
             int roomY = ((levelSize - 1) / 2) + (int)round(cos(angle * PI));
 
             roomsPathsMatrix[roomX][roomY] = (int)(angle / 0.5) + 1;
-
-            //Se invece le stanze del 4-intorno devono essere spawnate con una certa probabilità
-            /*
-            if (rand() % 2 == 1) {
-                roomsPathsMatrix[roomX][roomY] = (int)(angle / 0.5) + 1;
-            }
-            else {
-                roomsPathsMatrix[roomX][roomY] = -1;
-            }
-            */
         }
     }
 
@@ -96,7 +86,7 @@ protected:
                                     }
                                 }
                             }
-                            // dopo aver controllato i 3 "neighbors", se sono tutti pieni
+                            // dopo aver controllato i 3 "neighbors", se sono tutti pieni,
                             // non spawnare la stanza ed esci fuori dal ciclo
                             if (neighbors == 3) {
                                 roomsPathsMatrix[roomX][roomY] = -1;

@@ -238,7 +238,7 @@ public:
 				*		 l
 				*/
 				if (distanceX * distanceY != 0 && distanceX != floorCentre && distanceY != floorCentre) {
-					GetWorld()->SpawnActor<AActor>(lifeTotem, spawnPos + FVector(totemPosX, totemPosY, 160), FRotator(0, 0, 0), spawnParams);
+					GetWorld()->SpawnActor<AActor>(lifeTotem, spawnPos + FVector(totemPosX, totemPosY, 160), FRotator(0, -90, 0), spawnParams);
 					totemSpawned = true;
 				}
 			}

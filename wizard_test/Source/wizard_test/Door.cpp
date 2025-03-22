@@ -16,7 +16,6 @@ ADoor::ADoor()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 
-	//const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/LevelPrototyping/Meshes/SM_ChamferCube"));
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/3D_Models/Door/Meshes/Door"));
 
 	Mesh->SetStaticMesh(MeshObj.Object);

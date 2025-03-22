@@ -4,8 +4,6 @@
 
 #include "chrono"
 #include "GameFramework/Character.h"
-#include "MeleeEnemy.h"
-#include "RangedEnemy.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "EnemySpawner.generated.h"
