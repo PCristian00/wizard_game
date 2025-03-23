@@ -46,6 +46,7 @@ public:
 	int floorTilesTypes[roomsLengthInTiles][roomsLengthInTiles] = {};
 	bool playerEnteredRoomAlready = false;
 	bool roomContainsPortal = false;
+	TSubclassOf<AActor> DamageUp, HealthUp, ManaUp, SpeedUp, TripleShot, QuadrupleShot;
 
 
 	void GenerateFloor(int roomValue) {
@@ -381,17 +382,43 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	/* Tiene traccia della morte dei nemici: quando vengono tutti sconfitti
-	*  le porte della stanza vengono aperte e viene spawnato l'eventuale portale
+	*  le porte della stanza vengono aperte e viene spawnato l'eventuale portale.
+	*  Se la stanza non contiene il portale viene spawnato un power-up randomico
+	*  con probabilità di spawn pari al 70%
 	*/
 	void UpdateRoomUponEnemyDeath() {
-		UE_LOG(LogTemp, Error, TEXT("An enemy called this function!"));
 		enemiesInTheRoom--;
 		if (enemiesInTheRoom == 0) {
 			DeleteDoors();
+			FActorSpawnParameters spawnParams;
 			if (roomContainsPortal) {
-				FActorSpawnParameters spawnParams;
 				FVector posOffset = FVector(0.0, 0.0, 95.0);
 				GetWorld()->SpawnActor<APortal>(GetActorLocation() + posOffset, FRotator(0, 0, 0), spawnParams);
+			}
+			else {
+				// Spawn dei power-ups
+				if ((rand() % 100) <= 69) {
+					switch (rand() % 6) {
+						case 0:
+							GetWorld()->SpawnActor<AActor>(DamageUp,GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 1:
+							GetWorld()->SpawnActor<AActor>(HealthUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 2:
+							GetWorld()->SpawnActor<AActor>(ManaUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 3:
+							GetWorld()->SpawnActor<AActor>(SpeedUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 4:
+							GetWorld()->SpawnActor<AActor>(TripleShot, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+						case 5:
+							GetWorld()->SpawnActor<AActor>(QuadrupleShot, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							break;
+					}
+				}
 			}
 		}
 	}
