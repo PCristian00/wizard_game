@@ -13,6 +13,55 @@ ARoomGenerator::ARoomGenerator()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	RootComponent = Root;
 
+	// Assegnazione degli assets dei power-ups alle rispettive classi C++
+	static ConstructorHelpers::FClassFinder<AActor> DamageUpAsset(TEXT("/Game/PowerUp/BP_MoreDamage_PowerUp.BP_MoreDamage_PowerUp_C"));
+	if (DamageUpAsset.Class != nullptr) {
+		DamageUp = DamageUpAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Damage_up was not found"));
+	}
+
+	static ConstructorHelpers::FClassFinder<AActor> HealthUpAsset(TEXT("/Game/PowerUp/BP_MoreHealth_PowerUp.BP_MoreHealth_PowerUp_C"));
+	if (HealthUpAsset.Class != nullptr) {
+		HealthUp = HealthUpAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Health_up was not found"));
+	}
+
+	static ConstructorHelpers::FClassFinder<AActor> ManaUpAsset(TEXT("/Game/PowerUp/BP_MoreMana_PowerUp.BP_MoreMana_PowerUp_C"));
+	if (ManaUpAsset.Class != nullptr) {
+		ManaUp = ManaUpAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Mana_up was not found"));
+	}
+
+	static ConstructorHelpers::FClassFinder<AActor> SpeedUpAsset(TEXT("/Game/PowerUp/BP_SpeedProjectiles_PowerUp.BP_SpeedProjectiles_PowerUp_C"));
+	if (SpeedUpAsset.Class != nullptr) {
+		SpeedUp = SpeedUpAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Speed_up was not found"));
+	}
+
+	static ConstructorHelpers::FClassFinder<AActor> TripleShotAsset(TEXT("/Game/PowerUp/BP_TripleShot_powerUp.BP_TripleShot_PowerUp_C"));
+	if (TripleShotAsset.Class != nullptr) {
+		TripleShot = TripleShotAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Triple_shot was not found"));
+	}
+
+	static ConstructorHelpers::FClassFinder<AActor> QuadrupleShotAsset(TEXT("/Game/PowerUp/BP_CrossShot_PowerUp.BP_CrossShot_PowerUp_C"));
+	if (QuadrupleShotAsset.Class != nullptr) {
+		QuadrupleShot = QuadrupleShotAsset.Class;
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("Quadruple_shot was not found"));
+	}
+
 
 	/* l'offset di posizione (posOffset) è in reatà
 		*	(roomsLengthInTiles * floorTilesWidth) / 2 - floorTilesWidth / 2;
