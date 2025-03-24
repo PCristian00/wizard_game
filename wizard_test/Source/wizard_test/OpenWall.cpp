@@ -47,11 +47,6 @@ AOpenWall::AOpenWall()
 	Light_3->SetAttenuationRadius(500);
 	Light_4->SetAttenuationRadius(500);
 
-	Light_1->SetIntensity(1000);
-	Light_2->SetIntensity(1000);
-	Light_3->SetIntensity(1000);
-	Light_4->SetIntensity(1000);
-
 	Tags.Add("muroAperto");
 
 }
