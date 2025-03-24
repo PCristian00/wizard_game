@@ -398,12 +398,12 @@ public:
 			else {
 				// Spawn dei power-ups
 				if ((rand() % 100) <= 69) {
-					switch (rand() % 6) {
+					switch (rand() % 8) {
 						case 0:
 							GetWorld()->SpawnActor<AActor>(DamageUp,GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 1:
-							GetWorld()->SpawnActor<AActor>(HealthUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+							GetWorld()->SpawnActor<AActor>(QuadrupleShot, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 							break;
 						case 2:
 							GetWorld()->SpawnActor<AActor>(ManaUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
@@ -414,8 +414,9 @@ public:
 						case 4:
 							GetWorld()->SpawnActor<AActor>(TripleShot, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 							break;
-						case 5:
-							GetWorld()->SpawnActor<AActor>(QuadrupleShot, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
+						default:
+							//Rispetto agli altri, il power up della vita spawna con una probabilità del 37.5%
+							GetWorld()->SpawnActor<AActor>(HealthUp, GetActorLocation(), FRotator(0, 0, 0), spawnParams);
 							break;
 					}
 				}
